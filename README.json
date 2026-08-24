@@ -1,10 +1,2277 @@
 {
-  "items": [],
+  "items": [
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DeepSeek-R1",
+              "description": "DeepSeek's first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 919443098,
+                "language": null,
+                "last_commit": "2025-06-27T08:35:54Z",
+                "owner": "deepseek-ai",
+                "repo": "DeepSeek-R1",
+                "stars": 92036
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepSeek-V3",
+              "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 908531752,
+                "language": "Python",
+                "last_commit": "2025-08-28T03:24:37Z",
+                "owner": "deepseek-ai",
+                "repo": "DeepSeek-V3",
+                "stars": 104402
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Qwen3",
+              "description": "Qwen3 is the large language model series developed by the Qwen team at Alibaba Cloud. Qwen3-2507 includes Instruct and Thinking variants with 235B-A22B, 30B-A3B, and 4B sizes, 256K long context, and 1M-token input support in some scenarios. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 752925682,
+                "language": "Python",
+                "last_commit": "2026-01-09T03:05:47Z",
+                "owner": "QwenLM",
+                "repo": "Qwen3",
+                "stars": 27553
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Gemma 4",
+              "description": "Gemma 4 is Google's latest open source large language model series, built on the Gemini architecture, offering improved performance, longer context windows, and better multilingual support. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 756673810,
+                "language": "C++",
+                "last_commit": "2026-08-21T14:35:00Z",
+                "owner": "google",
+                "repo": "gemma.cpp",
+                "stars": 7029
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Llama 4",
+              "description": "Meta's latest open-weight multimodal model family. Features mixture-of-experts architecture with variants such as Scout (10M-token context) and Maverick (400B total/17B active params), supporting text and image input. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 821134374,
+                "language": "Python",
+                "last_commit": "2026-02-11T16:38:31Z",
+                "owner": "meta-llama",
+                "repo": "llama-models",
+                "stars": 7684
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mixtral",
+              "description": "Mixtral 8x7B, a high-quality sparse mixture of experts model (SMoE) with open weights. Mixtral outperforms Llama 2 70B on most benchmarks with 6x faster inference. It matches or outperforms GPT3.5 on most standard benchmarks. paper：https://arxiv.org/pdf/2401.04088.pdf news：https://mistral.ai/news/mixtral-of-experts/ mistral-inference mistral-finetune Free",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 697302510,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-06-16T15:40:44Z",
+                "owner": "mistralai",
+                "repo": "mistral-inference",
+                "stars": 10830
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "grok-1",
+              "description": "A large language model open sourced by xAI Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 773286980,
+                "language": "Python",
+                "last_commit": "2024-08-30T04:17:25Z",
+                "owner": "xai-org",
+                "repo": "grok-1",
+                "stars": 52166
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Open Source LLMs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "StructEval",
+              "description": "StructEval is a TMLR 2025 benchmark and public leaderboard for evaluating LLM structured-output generation and conversion across 2,035 examples, 18 text and renderable formats, and format-specific structural and visual checks. Leaderboard Paper Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 911787354,
+                "language": "Python",
+                "last_commit": "2026-07-26T23:44:22Z",
+                "owner": "TIGER-AI-Lab",
+                "repo": "StructEval",
+                "stars": 23
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "LLM Leaderboard"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Claude Code",
+              "description": "🌟 Anthropic's AI coding agent. Available in the terminal CLI, VS Code/Cursor/JetBrains IDE plugins, desktop app, and web. Built on the Claude model family, it offers long-context codebase understanding, multi-file editing, shell command execution, MCP extensions, skills/hooks/subagents, CLAUDE.md project rules, and automatic memory. Supports Remote Control to continue local sessions from your phone or browser. Intro Comparison Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 937253475,
+                "language": "Python",
+                "last_commit": "2026-08-23T00:52:16Z",
+                "owner": "anthropics",
+                "repo": "claude-code",
+                "stars": 142838
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Codex",
+              "description": "🌟 OpenAI's open-source (Apache-2.0) terminal coding agent, written in Rust. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex App/desktop app, and Codex Web cloud tasks. It can understand and modify code directly, with kernel-level sandboxing, MCP, skills/plugins/hooks, subagents, and Remote SSH. Active sessions sync across phone/desktop/web via the ChatGPT relay. Intro Comparison Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 965415649,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:24:28Z",
+                "owner": "openai",
+                "repo": "codex",
+                "stars": 116738
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kimi Code",
+              "description": "🌟 Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). Intro Comparison Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1246459259,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:37:42Z",
+                "owner": "MoonshotAI",
+                "repo": "kimi-code",
+                "stars": 7045
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepSeek Harness",
+              "description": "🌱 DeepSeek's open-source (MIT) agent harness released on August 13, 2026. A full agent runtime (CLI + Web UI at 127.0.0.1:3080) with an \"everything is a plugin\" architecture powered by Cordis. Ships 40+ first-party packages (LLM, MCP, LSP, ACP, sandbox, skills, subagents, sessions, tools, plans, scheduling, web, shell, etc.) and bilingual EN/ZH architecture docs. Currently developer preview — breaking changes expected. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1333065091,
+                "language": "TypeScript",
+                "last_commit": "2026-08-21T12:35:08Z",
+                "owner": "deepseek-ai",
+                "repo": "deepseek-harness",
+                "stars": 190935
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pi",
+              "description": "Open-source (MIT) self-extensible coding agent by earendil-works. Monorepo architecture with (interactive CLI), (tool calling and state management), (unified multi-provider LLM API), , and telemetry. Features plugin architecture, supply-chain hardening (pinned deps, shrinkwrap, audit), and sandboxing patterns (Gondolin, Docker, OpenShell). Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1035029907,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:40:25Z",
+                "owner": "earendil-works",
+                "repo": "pi",
+                "stars": 96411
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grok build",
+              "description": "xAI's terminal-based AI coding agent, open-sourced and written in Rust. Runs as a full-screen, mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks. Supports interactive, headless (scripting/CI), and ACP editor-embedded modes, with MCP servers, skills, plugins, hooks, and sandboxing. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1300902838,
+                "language": "Rust",
+                "last_commit": "2026-08-23T10:49:04Z",
+                "owner": "xai-org",
+                "repo": "grok-build",
+                "stars": 25979
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "browser-use",
+              "description": "Open-source Python library that enables AI agents to control web browsers. Supports natural-language task execution, DOM extraction, form filling, multi-step navigation, and integration with any LLM via a simple API. Useful for building web agents, automated testing, and data extraction workflows. Intro GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 881458615,
+                "language": "Python",
+                "last_commit": "2026-08-22T23:25:03Z",
+                "owner": "browser-use",
+                "repo": "browser-use",
+                "stars": 110326
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cua",
+              "description": "Open-source infrastructure for Computer-Use Agents (CUA). Provides sandboxes, drivers, and SDKs for macOS, Windows, Linux, and Android, enabling AI to control full desktops just like a human. Intro GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 925270205,
+                "language": "HTML",
+                "last_commit": "2026-08-24T07:29:50Z",
+                "owner": "trycua",
+                "repo": "cua",
+                "stars": 21856
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenClaw",
+              "description": "Open-source self-hosted AI agent that runs locally and autonomously executes tasks. Connects to WhatsApp, Telegram, Slack, Discord and other messaging platforms, with browser control, system access, and persistent memory. Developed by Peter Steinberger, one of the fastest-growing open-source projects. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1103012935,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:51:37Z",
+                "owner": "openclaw",
+                "repo": "openclaw",
+                "stars": 387323
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenWorker",
+              "description": "Open-source, local-first desktop AI coworker by Andrew Ng. Delivers finished work (documents, Slack replies, calendar updates, reports) rather than chat answers. Supports 35+ app connectors, MCP, and bring-your-own-key models (OpenAI, Anthropic, Gemini, DeepSeek, Kimi, Qwen, Ollama, etc.) with local storage of data and credentials. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1306128367,
+                "language": "Python",
+                "last_commit": "2026-08-24T04:51:34Z",
+                "owner": "andrewyng",
+                "repo": "openworker",
+                "stars": 14989
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "autoresearch",
+              "description": "An autonomous AI agent for machine learning research by Karpathy. It can formulate hypotheses, modify training code, run experiments, and evaluate results autonomously to find performance improvements. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1174820787,
+                "language": "Python",
+                "last_commit": "2026-03-26T00:07:37Z",
+                "owner": "karpathy",
+                "repo": "autoresearch",
+                "stars": 94597
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ml-intern",
+              "description": "An open-source, autonomous AI agent by Hugging Face designed to function as a specialized Machine Learning Engineer. It handles the end-to-end ML lifecycle, including researching papers, writing code, running experiments, and shipping models to the Hugging Face Hub. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1086488930,
+                "language": "Python",
+                "last_commit": "2026-07-30T22:54:26Z",
+                "owner": "huggingface",
+                "repo": "ml-intern",
+                "stars": 10750
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Dexter",
+              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1076426995,
+                "language": "TypeScript",
+                "last_commit": "2026-08-04T15:20:42Z",
+                "owner": "virattt",
+                "repo": "dexter",
+                "stars": 27541
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Multica",
+              "description": "Open-source managed agents platform to integrate AI coding agents (Claude Code, Codex, Cursor, Copilot, OpenCode, OpenClaw, Hermes, Gemini, Pi, Kimi, Kiro CLI, and more) into dev teams as first-class teammates. Features task assignment, progress tracking, reusable skills, and local daemon auto-detection of installed agent CLIs. Intro Github Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1133707766,
+                "language": "Go",
+                "last_commit": "2026-08-24T11:02:47Z",
+                "owner": "multica-ai",
+                "repo": "multica",
+                "stars": 47467
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Paperclip",
+              "description": "Open-source AI agent orchestration platform that models AI operations as a company. Define org charts, reporting lines, budgets, and governance policies, then let agents work autonomously within that structure. Supports OpenClaw, Claude Code, Codex, and other agent backends. Heartbeat-based execution with cost controls and audit trails. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1170821064,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:39:25Z",
+                "owner": "paperclipai",
+                "repo": "paperclip",
+                "stars": 79288
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Symphony",
+              "description": "OpenAI's open-source project-to-delivery harness. Turns project requirements into isolated, autonomous implementation runs; agents monitor boards like Linear, open PRs, and merge code with proof-of-work (CI status, review feedback, demo videos). Currently in engineering preview. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1167965563,
+                "language": "Elixir",
+                "last_commit": "2026-08-19T23:24:27Z",
+                "owner": "openai",
+                "repo": "symphony",
+                "stars": 26829
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "QM",
+              "description": "YC open-source multi-agent harness for organizations. Runs on Slack and Web with scoped workspaces (memory, files, credentials, permissions) per employee/project/channel; headless core with replaceable models/harnesses and self-hostable via Docker/Fly/AWS. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1316527318,
+                "language": "TypeScript",
+                "last_commit": "2026-08-22T00:39:05Z",
+                "owner": "yc-software",
+                "repo": "qm",
+                "stars": 14144
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Buzz",
+              "description": "Open-source, self-hostable workspace where humans and AI agents share the same rooms. Agents get their own keys and audit trail to open repos, send patches, review code, run workflows, edit canvases, and join voice huddles. Built on a Nostr relay so every message and action is a signed event. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1174789082,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:41:45Z",
+                "owner": "block",
+                "repo": "buzz",
+                "stars": 30394
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "deer-flow",
+              "description": "ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, memory, sandboxes, tools, skills, and message gateways to research, code, and create. Built on LangGraph/LangChain with a web UI and multi-provider LLM support. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 979115477,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:48:38Z",
+                "owner": "bytedance",
+                "repo": "deer-flow",
+                "stars": 80776
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Orkas",
+              "description": "Open-source, local-first multi-agent AI desktop client. A Commander decomposes goals and coordinates specialist agents in parallel or sequence, with private skills and memory. Supports BYO model providers and local model endpoints, and can drive Claude Code, Codex, OpenClaw, OpenCode, and Hermes. Cross-platform (macOS / Windows / Linux). Website Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1224575142,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T01:35:42Z",
+                "owner": "Orkas-AI",
+                "repo": "Orkas",
+                "stars": 1422
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AgentsMesh",
+              "description": "The AI Agent Workforce Platform. Self-hostable remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR integration, per-pod MCP server. Supports Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode. Github Free (BSL-1.1)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1169101061,
+                "language": "Go",
+                "last_commit": "2026-08-03T11:45:02Z",
+                "owner": "AgentsMesh",
+                "repo": "AgentsMesh",
+                "stars": 2327
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "microsoft/autogen",
+              "description": "AutoGen is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 680120071,
+                "language": "Python",
+                "last_commit": "2026-04-15T11:59:09Z",
+                "owner": "microsoft",
+                "repo": "autogen",
+                "stars": 60607
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "msitarzewski/agency-agents",
+              "description": "Open-source AI agency toolkit with 230+ specialized agent personas across engineering, design, marketing, sales, finance, game dev, healthcare, and more. Features ready-to-use agent personalities, workflow templates, deliverables, and a native desktop app to browse/install agents into Claude Code, Cursor, Codex, Gemini, Kimi Code, Aider, and other AI dev tools. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1075372545,
+                "language": "Shell",
+                "last_commit": "2026-08-06T13:29:47Z",
+                "owner": "msitarzewski",
+                "repo": "agency-agents",
+                "stars": 147760
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ECC",
+              "description": "Open-source enhancement framework for AI coding agents. Unified agent/skills/rules/Hooks/MCP configuration across Claude Code, Codex, Cursor, OpenCode, Gemini, Zed, GitHub Copilot. Ships with 60 sub-agents, 232 skills, persistent memory, AgentShield security scan, and desktop dashboard GUI. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1136590548,
+                "language": "JavaScript",
+                "last_commit": "2026-08-24T05:00:04Z",
+                "owner": "affaan-m",
+                "repo": "ECC",
+                "stars": 242788
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CC Switch",
+              "description": "Cross-platform desktop app to manage Claude Code, Codex, Gemini CLI, OpenCode, and OpenClaw. Features visual configuration for API providers, MCP servers, and skills with bidirectional sync. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1031912724,
+                "language": "Rust",
+                "last_commit": "2026-08-24T09:03:55Z",
+                "owner": "farion1231",
+                "repo": "cc-switch",
+                "stars": 129135
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "codex-plugin-cc",
+              "description": "Claude Code plugin that enables using OpenAI Codex for code reviews and task delegation directly within Claude Code workflow. Provides /codex:review, /codex:adversarial-review and other commands Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1196321162,
+                "language": "JavaScript",
+                "last_commit": "2026-07-08T00:17:31Z",
+                "owner": "openai",
+                "repo": "codex-plugin-cc",
+                "stars": 32240
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "codesight",
+              "description": "CLI token optimizer and AI context generator with built-in MCP server. Scans codebases to extract routes, schema, components, and dependencies, reducing AI context tokens by 9x–13x. Profiles for Claude Code, Cursor, Copilot, Codex, and Windsurf. Zero runtime dependencies. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1201469843,
+                "language": "TypeScript",
+                "last_commit": "2026-07-27T13:30:50Z",
+                "owner": "Houseofmvps",
+                "repo": "codesight",
+                "stars": 1381
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AGENTS.md",
+              "description": "An open standard for codebase documentation designed specifically for AI coding agents. Provides structured context, instructions, and constraints to help agents work more effectively and safely. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1040906383,
+                "language": "TypeScript",
+                "last_commit": "2026-03-12T14:26:14Z",
+                "owner": "agentsmd",
+                "repo": "agents.md",
+                "stars": 23826
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Spec Kit",
+              "description": "GitHub's open-source toolkit for Spec-Driven Development (SDD). Provides the CLI and slash commands (/speckit.specify, /speckit.plan, /speckit.implement, etc.) that integrate with 30+ AI coding agents to turn specifications into executable implementation plans. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1042367133,
+                "language": "Python",
+                "last_commit": "2026-08-21T21:29:37Z",
+                "owner": "github",
+                "repo": "spec-kit",
+                "stars": 131077
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "musistudio/claude-code-router",
+              "description": "A powerful tool to route Claude Code requests to different models and customize any request. Supports multi-provider routing, request/response transformation, dynamic model switching, CLI model management, and GitHub Actions integration. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 938468965,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:20:08Z",
+                "owner": "musistudio",
+                "repo": "claude-code-router",
+                "stars": 36848
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "instructkr/claw-code",
+              "description": "A reimplementation of Anthropic's Claude Code agent harness, currently being rewritten in Rust for memory safety. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1197021090,
+                "language": "Rust",
+                "last_commit": "2026-08-16T06:18:45Z",
+                "owner": "ultraworkers",
+                "repo": "claw-code",
+                "stars": 195112
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MemPalace",
+              "description": "Open-source AI memory system that stores full conversations and project data locally without cloud dependencies. Organizes memories into a hierarchical \"palace\" structure, achieves 96.6% recall on LongMemEval benchmarks (highest scoring), supports MCP integration and works offline with local LLMs. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1201656210,
+                "language": "Python",
+                "last_commit": "2026-08-24T03:36:00Z",
+                "owner": "MemPalace",
+                "repo": "mempalace",
+                "stars": 58593
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TencentDB Agent Memory",
+              "description": "Tencent Cloud's open-source memory infrastructure for agent teams. Provides Memory Hub for cross-session/cross-agent memory sharing, Chat Memory with L0–L3 distillation, Skill library for reusable expertise, and Wiki/CodeGraph for docs/code knowledge maps. Works with Claude Code, CodeBuddy, and other agents. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1203558071,
+                "language": "TypeScript",
+                "last_commit": "2026-08-15T10:06:58Z",
+                "owner": "TencentCloud",
+                "repo": "TencentDB-Agent-Memory",
+                "stars": 24200
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hermes Agent",
+              "description": "Open-source agentic framework built by NousResearch, fine-tuned on Hermes models with strong tool calling and reasoning capabilities for building autonomous AI agents. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1024554267,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:09:29Z",
+                "owner": "NousResearch",
+                "repo": "hermes-agent",
+                "stars": 235494
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Screenpipe",
+              "description": "Open-source 24/7 local screen + microphone recorder with OCR, audio transcription, and semantic search. Provides AI agents with long-term context of everything you've seen, said, or heard via MCP. Fully offline with Ollama or any local LLM. Cross-platform (macOS / Windows / Linux). Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 817326197,
+                "language": "Rust",
+                "last_commit": "2026-08-24T13:34:51Z",
+                "owner": "screenpipe",
+                "repo": "screenpipe",
+                "stars": 21202
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MastraAI",
+              "description": "Mastra is an opinionated TypeScript framework that helps you build AI applications and features quickly. It gives you the set of primitives you need: workflows, agents, RAG, integrations and evals Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 839037098,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:45:37Z",
+                "owner": "mastra-ai",
+                "repo": "mastra",
+                "stars": 27424
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FlowGram.AI",
+              "description": "An extensible visual AI workflow development framework with built-in canvas, form engine, variable scope chain, and ready-to-use materials (LLM, Condition, Code Editor, etc.) for building AI workflow platforms faster. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 933963452,
+                "language": "TypeScript",
+                "last_commit": "2026-08-20T04:16:09Z",
+                "owner": "bytedance",
+                "repo": "flowgram.ai",
+                "stars": 8390
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Conductor",
+              "description": "Netflix-originated open-source durable workflow engine now focused on AI agent orchestration. Provides event-driven execution, durable state, retries/timeouts, 14+ LLM providers, MCP tool calling, function calling, human-in-the-loop approval, and vector DB integration for RAG. Trusted in production at Netflix, Tesla, LinkedIn, and J.P. Morgan. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 728981719,
+                "language": "Java",
+                "last_commit": "2026-08-22T00:10:19Z",
+                "owner": "conductor-oss",
+                "repo": "conductor",
+                "stars": 32117
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DeepTutor",
+              "description": "An agent-native learning workspace by HKUDS that unifies AI tutoring, problem solving, quiz generation, research, visualization, and mastery practice. Features multi-engine RAG, persistent memory, Partners/My Agents, and live coding CLI integration. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1124219907,
+                "language": "Python",
+                "last_commit": "2026-08-24T09:54:06Z",
+                "owner": "HKUDS",
+                "repo": "DeepTutor",
+                "stars": 37362
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "potpie-ai/potpie",
+              "description": "Open Source AI Agents for your codebase in minutes. Use pre-built agents for Q&A, Testing, Debugging and System Design or create your own purpose-built agents. URL , Github Free Trial",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 841370602,
+                "language": "Python",
+                "last_commit": "2026-08-24T11:05:31Z",
+                "owner": "potpie-ai",
+                "repo": "potpie",
+                "stars": 5699
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "agentscope",
+              "description": "Agent-Oriented Programming for Building LLM Applications, Open-sourced by Alibaba Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 742244656,
+                "language": "Python",
+                "last_commit": "2026-08-24T12:47:43Z",
+                "owner": "agentscope-ai",
+                "repo": "agentscope",
+                "stars": 29452
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Auto-GPT",
+              "description": "Open source, An experimental open-source attempt to make GPT-4 fully autonomous. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 614765452,
+                "language": "Python",
+                "last_commit": "2026-08-24T11:07:27Z",
+                "owner": "Significant-Gravitas",
+                "repo": "AutoGPT",
+                "stars": 186849
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CLI-Anything",
+              "description": "An open-source framework that makes all software agent-native — auto-generates production-ready CLIs for any application via a 7-phase pipeline, enabling AI agents to control any desktop software. Supports 16+ AI agent platforms including Claude Code, OpenClaw, Codex and includes CLI-Hub for community CLI discovery. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1176011916,
+                "language": "Python",
+                "last_commit": "2026-08-21T07:26:58Z",
+                "owner": "HKUDS",
+                "repo": "CLI-Anything",
+                "stars": 48026
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Understand Anything",
+              "description": "AI-powered codebase and knowledge base analysis tool that builds interactive visual knowledge graphs. Features multi-agent analysis, architecture guided tours, and semantic search for large codebases. Works as a plugin for Claude Code, Cursor, and more. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1182081931,
+                "language": "TypeScript",
+                "last_commit": "2026-08-11T14:13:37Z",
+                "owner": "Egonex-AI",
+                "repo": "Understand-Anything",
+                "stars": 80310
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Agent"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "anthropics/skills",
+              "description": "Official skills repository for Claude Code skills, providing reusable tool integrations and extensions for Claude Code AI assistant Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1061953414,
+                "language": "Python",
+                "last_commit": "2026-08-21T17:10:55Z",
+                "owner": "anthropics",
+                "repo": "skills",
+                "stars": 171318
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "openai/skills",
+              "description": "Official skills repository for OpenAI GPT models, providing reusable tools and extensions for OpenAI's AI assistants Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1103643573,
+                "language": "Python",
+                "last_commit": "2026-07-14T16:47:46Z",
+                "owner": "openai",
+                "repo": "skills",
+                "stars": 25157
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "JimLiu/baoyu-skills",
+              "description": "Community skills repository for Claude Code, providing practical Chinese-language and region-specific skills including Weibo posting functionality Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1133207146,
+                "language": "TypeScript",
+                "last_commit": "2026-07-04T16:25:18Z",
+                "owner": "JimLiu",
+                "repo": "baoyu-skills",
+                "stars": 25287
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "garrytan/gstack",
+              "description": "An opinionated collection of Claude Code skills that transform the AI agent into a specialized team of experts (CEO, PM, QA, DevOps). Adds custom slash commands and automated quality checks. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1179264259,
+                "language": "TypeScript",
+                "last_commit": "2026-08-22T02:22:16Z",
+                "owner": "garrytan",
+                "repo": "gstack",
+                "stars": 129411
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "addyosmani/agent-skills",
+              "description": "A curated library of 20+ engineering workflow skills for AI coding assistants. Standardizes the software development lifecycle from requirements through shipping, with 7 built-in commands: /spec, /plan, /build, /test, /ship, etc. Built by Google Gemini team lead Addy Osmani. Compatible with Claude Code, Gemini CLI, Codex, and Cursor. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1158722119,
+                "language": "JavaScript",
+                "last_commit": "2026-08-21T18:15:04Z",
+                "owner": "addyosmani",
+                "repo": "agent-skills",
+                "stars": 89410
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "phuryn/pm-skills",
+              "description": "Product-management skills marketplace for Claude Code and Claude Cowork, providing PM skills and chained workflows across discovery, strategy, execution, launch, growth, and shipping AI-built code. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1170266927,
+                "language": null,
+                "last_commit": "2026-07-03T11:34:49Z",
+                "owner": "phuryn",
+                "repo": "pm-skills",
+                "stars": 25590
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NVIDIA/SkillSpector",
+              "description": "Open-source security scanner for AI agent skills from NVIDIA. Scans skills (from Git repos, URLs, zip files, or directories) for risky patterns including prompt injection, data exfiltration, privilege escalation, malicious code, supply-chain issues, and MCP tool poisoning. Uses static analysis plus optional LLM-based semantic review and can be used in CI/CD or as an MCP server. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1187630119,
+                "language": "Python",
+                "last_commit": "2026-08-22T00:53:46Z",
+                "owner": "NVIDIA",
+                "repo": "SkillSpector",
+                "stars": 14938
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Superpowers",
+              "description": "A complete software development methodology for coding agents, built on composable skills. Enforces spec-driven design, TDD, systematic debugging, code review, and subagent-driven development across Claude Code, Codex, Cursor, Kimi Code, OpenCode, Antigravity, GitHub Copilot CLI, and Pi. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1073224795,
+                "language": "Shell",
+                "last_commit": "2026-08-19T17:33:23Z",
+                "owner": "obra",
+                "repo": "superpowers",
+                "stars": 276917
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "last30days-skill",
+              "description": "AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket, GitHub, arXiv, and the web, then synthesizes a grounded summary scored by real engagement. Supports Claude Code, Codex, Cursor, Gemini CLI, and 50+ Agent Skills hosts. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1140843380,
+                "language": "Python",
+                "last_commit": "2026-08-23T18:45:07Z",
+                "owner": "mvanhorn",
+                "repo": "last30days-skill",
+                "stars": 59163
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Claude Video",
+              "description": "Claude Code skill that lets AI agents \"watch\" videos: extracts frames, pulls transcripts/captions, and answers questions grounded in what is seen and heard. Supports YouTube, TikTok, local files, and 50+ agent hosts via the Agent Skills CLI. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1219644159,
+                "language": "Python",
+                "last_commit": "2026-07-01T01:26:49Z",
+                "owner": "bradautomates",
+                "repo": "claude-video",
+                "stars": 16114
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Agent Skills"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "World Monitor",
+              "description": "AI-powered real-time global intelligence dashboard with 435+ curated feeds, geopolitical monitoring, infrastructure tracking, AI summaries, 21 languages support, local AI runtime and cross-platform native desktop apps Github , Official Site Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1130564872,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:02:18Z",
+                "owner": "koala73",
+                "repo": "worldmonitor",
+                "stars": 84010
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI News & Information"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenCode",
+              "description": "Open-source terminal-native AI coding agent. Provider-agnostic (Anthropic, OpenAI, Google, local models), with a TUI client/server architecture, LSP integration, and support for custom agents and MCP servers. Intro URL Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 975734319,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:51:00Z",
+                "owner": "anomalyco",
+                "repo": "opencode",
+                "stars": 200887
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenChamber",
+              "description": "Desktop and web GUI for the OpenCode AI agent. Provides session management, diffs, and workspace control on top of OpenCode. Intro URL Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1054790989,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T11:26:26Z",
+                "owner": "openchamber",
+                "repo": "openchamber",
+                "stars": 9162
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "oh-my-pi",
+              "description": "Fork of Pi by @can1357. A terminal-native AI coding agent with the IDE wired in: LSP, DAP debugging, Python/Bun code execution, 40+ providers, and 32 built-in tools. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1125856365,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:13:08Z",
+                "owner": "can1357",
+                "repo": "oh-my-pi",
+                "stars": 27045
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Happy Coder",
+              "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured URL GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1021895365,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:38:41Z",
+                "owner": "slopus",
+                "repo": "happy",
+                "stars": 23489
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scalene",
+              "description": "Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python with AI-powered optimization proposals Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 228700143,
+                "language": "Python",
+                "last_commit": "2026-08-01T19:34:24Z",
+                "owner": "plasma-umass",
+                "repo": "scalene",
+                "stars": 13495
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "git-lrc",
+              "description": "Free, Unlimited AI Code Reviews That Run on Every Commit GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1152600431,
+                "language": "Go",
+                "last_commit": "2026-08-24T11:47:52Z",
+                "owner": "HexmosTech",
+                "repo": "git-lrc",
+                "stars": 1454
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "alibaba/open-code-review",
+              "description": "Open-source AI code-review CLI/agent by Alibaba. Reviews Git diffs with deterministic pipelines plus an LLM agent, supports line-level comments, configurable OpenAI/Anthropic-compatible endpoints, custom rules, JSON CI output, WebUI session viewer, and Claude Code/Codex integrations. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1241960226,
+                "language": "Go",
+                "last_commit": "2026-08-24T13:47:47Z",
+                "owner": "alibaba",
+                "repo": "open-code-review",
+                "stars": 21311
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kodus",
+              "description": "Open Source Code Review Agent GitHub Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 956679248,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:52:22Z",
+                "owner": "kodustech",
+                "repo": "kodus-ai",
+                "stars": 1322
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Steel Browser",
+              "description": "Open-source browser sandbox and automation infrastructure for AI agents and apps with session-backed workflows, screenshots, PDFs, proxies, and anti-bot tooling. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 882026761,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T21:49:36Z",
+                "owner": "steel-dev",
+                "repo": "steel-browser",
+                "stars": 7534
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Termux",
+              "description": "Android terminal emulator and Linux environment app that allows you to run coding tools, AI models and development environments directly on your mobile device, with built-in SSH client support for logging into remote hosts. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 44804216,
+                "language": "Java",
+                "last_commit": "2026-07-14T20:47:14Z",
+                "owner": "termux",
+                "repo": "termux-app",
+                "stars": 59692
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AI-Codereview-Gitlab",
+              "description": "GitLab automatic code review tool based on LLMs (DeepSeek, OpenAI, etc.). Supports DingTalk/WeCom/Feishu notifications and daily reports generation. Docker deployment supported with visual Dashboard. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 888350460,
+                "language": "Python",
+                "last_commit": "2026-07-23T05:45:52Z",
+                "owner": "sunmh207",
+                "repo": "AI-Codereview-Gitlab",
+                "stars": 1823
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "code-review-graph",
+              "description": "Builds a structural code graph with Tree-sitter, tracks incremental changes, and exposes precise review context to AI coding assistants via MCP to reduce redundant codebase reads. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1167788341,
+                "language": "Python",
+                "last_commit": "2026-08-22T23:01:11Z",
+                "owner": "tirth8205",
+                "repo": "code-review-graph",
+                "stars": 30767
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cate",
+              "description": "Open source desktop IDE on an infinite zoomable canvas. You arrange Monaco editors, xterm.js terminals, embedded browsers, and Claude Code agent panels in freeform zoomable space instead of tabs. Panels can float, dock, or detach into separate windows, and layout persists per project. Built with Electron, runs on macOS, Windows, and Linux. URL Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1195336965,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T08:36:52Z",
+                "owner": "0-AI-UG",
+                "repo": "cate",
+                "stars": 2089
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CLIProxyAPI",
+              "description": "A proxy server that exposes AI CLI tools and subscriptions (Claude Code, Codex, Gemini, Grok, etc.) through OpenAI/Gemini/Claude/Codex-compatible API interfaces. Supports OAuth login, streaming/WebSocket responses, function calling, multimodal input, and multi-account load balancing across providers. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1012087571,
+                "language": "Go",
+                "last_commit": "2026-08-24T09:15:38Z",
+                "owner": "router-for-me",
+                "repo": "CLIProxyAPI",
+                "stars": 48569
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Markstream",
+              "description": "Open-source streaming Markdown renderer family for AI chat interfaces. Handles incomplete Markdown and smooth token pacing, with maintained Vue 3/Nuxt, React/Next.js, Svelte, Angular, Vue 2, and framework-agnostic parser/core packages. Supports Mermaid, KaTeX, code highlighting, safe HTML, and SSR. Frameworks Vue Playground Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 988222683,
+                "language": "Vue",
+                "last_commit": "2026-08-24T10:58:38Z",
+                "owner": "Simon-He95",
+                "repo": "markstream-vue",
+                "stars": 2957
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Codex Security",
+              "description": "Open-source CLI and TypeScript SDK from OpenAI for finding, validating, and fixing security vulnerabilities in code. Supports repository scanning, finding tracking, fix verification, CI/CD integration, and containerized bulk scans. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1299769220,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:45:53Z",
+                "owner": "openai",
+                "repo": "codex-security",
+                "stars": 10135
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Coding"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cherry Studio",
+              "description": "Cherry Studio is a desktop client that supports for multiple LLM providers, available on Windows, Mac and Linux. Support major LLM Cloud Services: OpenAI, Gemini, Anthropic, and more AI Web Service Integration: Claude, Peplexity, Poe, and others Local Model Support with Ollama, LM Studio Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 805155266,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:14:26Z",
+                "owner": "CherryHQ",
+                "repo": "cherry-studio",
+                "stars": 50999
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HuggingChat",
+              "description": "Open source codebase powering the HuggingChat app. URL Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 603085008,
+                "language": "TypeScript",
+                "last_commit": "2026-08-21T20:03:54Z",
+                "owner": "huggingface",
+                "repo": "chat-ui",
+                "stars": 10907
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ollama",
+              "description": "Get up and running with Llama 2, Mistral, Gemma, and other large language models. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 658928958,
+                "language": "Go",
+                "last_commit": "2026-08-23T18:40:59Z",
+                "owner": "ollama",
+                "repo": "ollama",
+                "stars": 179315
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "langchain",
+              "description": "LangChain is a framework for developing applications powered by language models. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 552661142,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:18:11Z",
+                "owner": "langchain-ai",
+                "repo": "langchain",
+                "stars": 144894
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Helicone AI",
+              "description": "Helicone is the open-source LLM observability platform for logging, monitoring, and debugging AI applications. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 595832198,
+                "language": "TypeScript",
+                "last_commit": "2026-08-23T16:42:14Z",
+                "owner": "Helicone",
+                "repo": "helicone",
+                "stars": 6097
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WFGY ProblemMap",
+              "description": "Open-source RAG failure-mode checklist and diagnostics toolkit for LLM pipelines (data, embeddings, retrievers, tools, evaluation). MIT-licensed and used by several labs and infra projects as a practical RAG debugging guide. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 996124831,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-24T07:02:30Z",
+                "owner": "onestardao",
+                "repo": "WFGY",
+                "stars": 1781
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "screenshot-to-code",
+              "description": "Converts screenshots, mockups, Figma designs, and screen recordings into clean, functional code. Supports multiple AI models (Gemini 3 Flash, GPT-5.5, Claude Opus 4.8) and output stacks (HTML+Tailwind, React, Vue, Bootstrap, etc.). Also supports URL cloning and video-to-code conversion. GitHub Free, requires API keys (OpenAI/Anthropic/Gemini recommended)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 718741813,
+                "language": "Python",
+                "last_commit": "2026-08-14T17:20:50Z",
+                "owner": "abi",
+                "repo": "screenshot-to-code",
+                "stars": 74404
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NadirClaw",
+              "description": "Open-source LLM router that classifies prompts in ~10ms and routes to the optimal model tier (free/cheap/premium/reasoning). OpenAI-compatible proxy with agentic detection, session pinning, and 429 fallback. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1155005282,
+                "language": "Python",
+                "last_commit": "2026-08-12T13:42:14Z",
+                "owner": "NadirRouter",
+                "repo": "NadirClaw",
+                "stars": 642
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Harbor",
+              "description": "Effortlessly run LLM backends, APIs, frontends, and services with one command. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 834595923,
+                "language": "Python",
+                "last_commit": "2026-08-16T12:40:33Z",
+                "owner": "av",
+                "repo": "harbor",
+                "stars": 3188
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OmniRoute",
+              "description": "Self-hostable AI gateway with 4-tier automatic fallback routing across 36+ providers. OpenAI-compatible API with quota tracking and zero-cost fallback to free tiers. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1157102282,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:58:03Z",
+                "owner": "diegosouzapw",
+                "repo": "OmniRoute",
+                "stars": 54209
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Morphik.ai",
+              "description": "Open source AI-driven search engine for private documents URL Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 886966165,
+                "language": "Python",
+                "last_commit": "2026-07-23T05:48:19Z",
+                "owner": "morphik-org",
+                "repo": "morphik-core",
+                "stars": 3708
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Future AGI",
+              "description": "Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1219087723,
+                "language": "Python",
+                "last_commit": "2026-08-24T13:45:27Z",
+                "owner": "future-agi",
+                "repo": "future-agi",
+                "stars": 1801
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "General LLM Applications"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Chrome DevTools MCP",
+              "description": "Official Model Context Protocol server from Chrome DevTools that enables AI coding agents (like Claude Code, Gemini CLI) to control and inspect a live Chrome browser. Supports performance trace analysis, network request debugging, screenshot capture, and console log inspection, helping AI agents better run, test, and debug code. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1054793726,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T10:54:30Z",
+                "owner": "ChromeDevTools",
+                "repo": "chrome-devtools-mcp",
+                "stars": 49640
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lightpanda",
+              "description": "A lightweight, high-performance headless browser written in Zig, designed for AI agents. Optimized for speed and low memory (~9x faster than Chrome), featuring native MCP support and Markdown output for LLMs. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 598667202,
+                "language": "Zig",
+                "last_commit": "2026-08-24T13:51:19Z",
+                "owner": "lightpanda-io",
+                "repo": "browser",
+                "stars": 34219
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "bb-browser",
+              "description": "Enable AI agents to control your real Chrome browser session, accessing sites with your existing login state without APIs. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1146413571,
+                "language": "TypeScript",
+                "last_commit": "2026-05-29T08:14:51Z",
+                "owner": "epiral",
+                "repo": "bb-browser",
+                "stars": 6116
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Google Workspace CLI",
+              "description": "Community-built unofficial command-line tool for Google Workspace that provides unified access to all Google Workspace APIs including Drive, Gmail, Calendar, Sheets, Docs, Chat. Features 40+ built-in AI agent skills, structured JSON output perfect for AI agents, and multiple authentication options. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1171026502,
+                "language": "Rust",
+                "last_commit": "2026-08-01T02:19:29Z",
+                "owner": "googleworkspace",
+                "repo": "cli",
+                "stars": 30532
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lark CLI",
+              "description": "Feishu (Lark) official command-line interface tool, helping developers quickly develop and manage Feishu applications Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1191372811,
+                "language": "Go",
+                "last_commit": "2026-08-24T13:38:48Z",
+                "owner": "larksuite",
+                "repo": "cli",
+                "stars": 16707
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DingTalk CLI",
+              "description": "DingTalk official command-line interface tool for quickly developing and managing DingTalk applications Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1187709537,
+                "language": "Go",
+                "last_commit": "2026-08-24T13:47:21Z",
+                "owner": "DingTalk-Real-AI",
+                "repo": "dingtalk-workspace-cli",
+                "stars": 2773
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WeWork CLI",
+              "description": "WeCom (WeChat Work) open-source command-line interface tool, helping developers quickly develop and manage WeCom applications Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1195011586,
+                "language": "Rust",
+                "last_commit": "2026-08-18T08:25:58Z",
+                "owner": "WecomTeam",
+                "repo": "wecom-cli",
+                "stars": 2952
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenConnector",
+              "description": "Open-source connector gateway for AI agents. Connect user app accounts once, then expose a shared catalog of 1000+ SaaS providers to agents via SDK, CLI, MCP, HTTP, and OpenAPI. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1283907968,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T09:23:59Z",
+                "owner": "oomol-lab",
+                "repo": "open-connector",
+                "stars": 5186
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Office Collaboration CLI/MCP"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "TradingAgents",
+              "description": "A multi-agent LLM financial trading framework that mirrors the dynamics of real-world trading firms. It uses specialized AI agents to collaboratively evaluate market conditions and inform trading decisions through structured debates. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 909213664,
+                "language": "Python",
+                "last_commit": "2026-07-18T15:55:05Z",
+                "owner": "TauricResearch",
+                "repo": "TradingAgents",
+                "stars": 99661
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "VNPy",
+              "description": "A comprehensive open-source quantitative trading framework in Python, supports strategy backtesting, live trading across multiple exchanges, and integrates AI/LLM capabilities for financial market analysis and strategy development. Widely used by quant traders in China. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 31522041,
+                "language": "Python",
+                "last_commit": "2026-08-10T01:07:58Z",
+                "owner": "vnpy",
+                "repo": "vnpy",
+                "stars": 44728
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TimesFM",
+              "description": "Google Research's open-source pretrained time-series foundation model for time-series forecasting. Supports long context (16k) and long-horizon forecasting up to 1k steps, which is widely used for financial and quantitative investment predictions. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 793784055,
+                "language": "Python",
+                "last_commit": "2026-07-14T03:27:18Z",
+                "owner": "google-research",
+                "repo": "timesfm",
+                "stars": 28201
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Dexter",
+              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1076426995,
+                "language": "TypeScript",
+                "last_commit": "2026-08-04T15:20:42Z",
+                "owner": "virattt",
+                "repo": "dexter",
+                "stars": 27541
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "yfinance",
+              "description": "Open-source Python library for accessing Yahoo Finance data. Provides stock, ETF, and crypto historical prices without API key. Essential data source for AI-powered quantitative trading and financial analysis. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 91948540,
+                "language": "Python",
+                "last_commit": "2026-08-20T11:24:14Z",
+                "owner": "ranaroussi",
+                "repo": "yfinance",
+                "stars": 25065
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenBB",
+              "description": "Open-source investment research platform that integrates multiple financial data sources (Yahoo Finance, Alpha Vantage, etc.) with unified API. Features built-in MCP server for AI agent integration, enabling Claude and other LLMs to query financial data directly. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 323048702,
+                "language": "Python",
+                "last_commit": "2026-07-30T17:33:42Z",
+                "owner": "OpenBB-finance",
+                "repo": "OpenBB",
+                "stars": 72233
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Fincept Terminal",
+              "description": "Native C++20 financial terminal (Qt6 + embedded Python) with 100+ data connectors, 37 AI agents for trading/investing/economic/geopolitics analysis, multi-asset analytics, real-time trading across 16 brokers, and MCP workflow integration. Note: public version moved to monthly updates in June 2026 as team focuses on private edition. Github Free/Commercial",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 849406496,
+                "language": "C++",
+                "last_commit": "2026-08-20T08:31:29Z",
+                "owner": "Fincept-Corporation",
+                "repo": "FinceptTerminal",
+                "stars": 30589
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Finance & Quant Investment"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Z-Image",
+              "description": "Z-Image is a high-performance image generation model recently open-sourced by Alibaba's Tongyi Lab. It strikes a balance between \"extreme speed\" and \"high quality,\" making it highly suitable for scenarios requiring rapid image generation. Z-Image-Turbo Online Demo: https://huggingface.co/spaces/mrfakename/Z-Image-Turbo Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1104481835,
+                "language": "Python",
+                "last_commit": "2026-02-09T12:49:43Z",
+                "owner": "Tongyi-MAI",
+                "repo": "Z-Image",
+                "stars": 11933
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Stable diffusion webui",
+              "description": "Open source project, input text or pictures to create pictures, Stable diffusion webui is the GUI of Stable diffusion, and it is an image user interface that visualizes stable diffusion. It also integrates many other useful extension scripts. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 527591471,
+                "language": "Python",
+                "last_commit": "2026-03-02T07:00:53Z",
+                "owner": "AUTOMATIC1111",
+                "repo": "stable-diffusion-webui",
+                "stars": 164632
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ControlNet",
+              "description": "ControlNet is a neural network structure to control diffusion models by adding extra conditions. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 595893961,
+                "language": "Python",
+                "last_commit": "2024-02-25T09:49:39Z",
+                "owner": "lllyasviel",
+                "repo": "ControlNet",
+                "stars": 34078
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Image Creation and UI Design"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "MiniMax H3",
+              "description": "🌱 Open-source omni-modal generative system by MiniMax for video and audio generation. Supports text-to-video, image-to-video, first/last-frame-to-video, text-to-audio-video, and local deployment via SGLang, vLLM, diffusers, and ComfyUI. Intro GitHub , HuggingFace Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1317041031,
+                "language": "Python",
+                "last_commit": "2026-08-15T08:31:17Z",
+                "owner": "MiniMax-AI",
+                "repo": "MiniMax-H3",
+                "stars": 6912
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Palmier Pro",
+              "description": "Open-source macOS video editor built for AI. Combines professional timeline editing with AI-assisted workflows, generative image/video features using models like Seedance, Kling, and Nano Banana Pro, plus MCP integration so agents such as Claude Code, Codex, Cursor, or the in-app agent can control the editing timeline. Apple Silicon Mac only. Github Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1203468533,
+                "language": "Swift",
+                "last_commit": "2026-08-24T04:03:46Z",
+                "owner": "palmier-io",
+                "repo": "palmier-pro",
+                "stars": 13822
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenMontage",
+              "description": "Open-source agentic video production system. Turns AI coding assistants into a full video studio with 12 pipelines (explainer, animation, documentary montage, etc.), 100+ tools, provider scoring, budget governance, and quality gates. Works with Claude Code, Cursor, Codex, Windsurf, and Copilot. Github Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1195360525,
+                "language": "Python",
+                "last_commit": "2026-08-22T18:22:24Z",
+                "owner": "calesthio",
+                "repo": "OpenMontage",
+                "stars": 49993
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Video Creation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LeetCUDA",
+              "description": "An open-source educational repository and question bank for CUDA programming and deep learning operator optimization. Includes 200+ kernels ranging from basic to advanced (e.g., FlashAttention-2) with PyTorch bindings. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 579300230,
+                "language": "Cuda",
+                "last_commit": "2026-08-17T03:15:23Z",
+                "owner": "xlite-dev",
+                "repo": "LeetCUDA",
+                "stars": 11819
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "GPU Programming"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "System Prompts and Models of AI Tools",
+              "description": "The most comprehensive collection of system prompts, tool definitions, and model configurations for mainstream AI tools (Cursor, Claude Code, Windsurf, Trae, v0, etc.). Essential for studying Prompt Engineering and AI Agent architectures. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 943398999,
+                "language": null,
+                "last_commit": "2026-08-11T13:01:09Z",
+                "owner": "x1xhlol",
+                "repo": "system-prompts-and-models-of-ai-tools",
+                "stars": 143047
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "f/awesome-chatgpt-prompts",
+              "description": "This repo includes ChatGPT prompt curation to use ChatGPT better. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 574523116,
+                "language": "HTML",
+                "last_commit": "2026-08-24T03:24:40Z",
+                "owner": "f",
+                "repo": "prompts.chat",
+                "stars": 167848
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "LLM Prompts"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "lm-sys/FastChat",
+              "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 615882673,
+                "language": "Python",
+                "last_commit": "2026-05-01T00:25:53Z",
+                "owner": "lm-sys",
+                "repo": "FastChat",
+                "stars": 39524
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "LLM training platform"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AirLLM",
+              "description": "A Python library that reduces LLM inference memory usage by loading one layer at a time, enabling 70B models on 4GB GPUs, 405B on 8GB, and 671B DeepSeek-V3 on ~12GB. Supports 4-bit/8-bit quantization and a wide range of open models via a single AutoModel interface. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 652712035,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-24T06:22:18Z",
+                "owner": "lyogavin",
+                "repo": "airllm",
+                "stars": 32382
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "LLM Inference & Deployment"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "immersive-translate",
+              "description": "Open source project. Immersive bilingual web translation extension GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 575401013,
+                "language": null,
+                "last_commit": "2026-08-21T11:59:20Z",
+                "owner": "immersive-translate",
+                "repo": "immersive-translate",
+                "stars": 18583
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "openai-translator",
+              "description": "Open source project. Crossword translation browser plugin and cross-platform desktop application based on ChatGPT API GitHub Free, requires OpenAI API key",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 609416865,
+                "language": "TypeScript",
+                "last_commit": "2026-08-23T18:50:38Z",
+                "owner": "nextai-translator",
+                "repo": "nextai-translator",
+                "stars": 24974
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RTranslator",
+              "description": "RTranslator is an open-source, free, and offline real-time translation app for Android. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 251396732,
+                "language": "C++",
+                "last_commit": "2026-08-21T16:36:10Z",
+                "owner": "niedev",
+                "repo": "RTranslator",
+                "stars": 10348
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Translation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "whisper",
+              "description": "OpenAPI open source robust speech recognition model through large-scale weak supervision GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 537603333,
+                "language": "Python",
+                "last_commit": "2026-07-28T20:18:29Z",
+                "owner": "openai",
+                "repo": "whisper",
+                "stars": 107861
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "whisper.cpp",
+              "description": "Port of OpenAI's Whisper model in C/C++ Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 541269386,
+                "language": "C++",
+                "last_commit": "2026-08-24T10:36:17Z",
+                "owner": "ggml-org",
+                "repo": "whisper.cpp",
+                "stars": 53135
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "buzz",
+              "description": "An open source desktop software based on OpenAI's Whisper to recognize speech and generate subtitles GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 540842713,
+                "language": "Python",
+                "last_commit": "2026-08-23T16:46:15Z",
+                "owner": "chidiwilliams",
+                "repo": "buzz",
+                "stars": 21105
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WhisperDesktop",
+              "description": "Open source, OpenAI-based Whisper, a desktop application for Windows, uses the GPU for processing, which will be faster than on the CPU with good GPU performance. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 586310592,
+                "language": "C++",
+                "last_commit": "2026-05-24T09:42:55Z",
+                "owner": "Const-me",
+                "repo": "Whisper",
+                "stars": 10644
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "whisperX",
+              "description": "WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization) whisperX Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 576103395,
+                "language": "Python",
+                "last_commit": "2026-07-13T08:30:07Z",
+                "owner": "m-bain",
+                "repo": "whisperX",
+                "stars": 23718
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Speech Recognition"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "index-tts2",
+              "description": "Bilibili's Open-Source Industrial-Grade Controllable High-Efficiency Zero-Sample Text-to-Speech System. Online Demo: https://huggingface.co/spaces/IndexTeam/IndexTTS-2-Demo Paper: https://arxiv.org/abs/2506.21619 Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 928102730,
+                "language": "Python",
+                "last_commit": "2026-08-18T06:52:28Z",
+                "owner": "index-tts",
+                "repo": "index-tts",
+                "stars": 23426
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ChatTTS",
+              "description": "ChatTTS is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. It supports both English and Chinese languages. Our model is trained with 100,000+ hours composed of chinese and english. Website：https://chattts.com/ Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 806709826,
+                "language": "Python",
+                "last_commit": "2026-04-10T16:33:48Z",
+                "owner": "2noise",
+                "repo": "ChatTTS",
+                "stars": 39794
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Text To Speech"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "RVC (Retrieval-Based Voice Conversion)",
+              "description": "Open-source voice conversion model that can transform any voice into another with high quality. Popular for singing voice conversion and voice cloning. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 619521008,
+                "language": "Python",
+                "last_commit": "2026-08-04T07:47:32Z",
+                "owner": "RVC-Project",
+                "repo": "Retrieval-based-Voice-Conversion-WebUI",
+                "stars": 37797
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "VibeVoice",
+              "description": "Open-source voice AI framework from Microsoft that includes both ASR and TTS capabilities. ASR supports 60-minute long-form audio with speaker diarization and 50+ languages; TTS generates natural long-form multi-speaker or real-time streaming speech. Intro GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1044296738,
+                "language": "Python",
+                "last_commit": "2026-07-24T09:24:29Z",
+                "owner": "microsoft",
+                "repo": "VibeVoice",
+                "stars": 53161
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Voicebox",
+              "description": "Open-source, local-first AI voice studio (a self-hosted alternative to ElevenLabs + WisprFlow). Combines voice cloning, speech generation (multiple TTS engines, 23 languages), Whisper-based dictation/transcription, and a local LLM for text refinement. Ships an MCP server so agents like Claude Code or Cursor can speak in cloned voices. All models and voice data stay on your machine; runs on macOS/Windows/Linux/Docker with GPU acceleration. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1141782198,
+                "language": "TypeScript",
+                "last_commit": "2026-08-09T00:03:42Z",
+                "owner": "jamiepine",
+                "repo": "voicebox",
+                "stars": 51294
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "speech-to-speech",
+              "description": "Low-latency, fully modular voice-agent pipeline (VAD → STT → LLM → TTS) from Hugging Face. Exposes an OpenAI Realtime-compatible WebSocket API; every component is swappable, supporting fully local or API-backed deployment. Used in production as the conversation backend for Reachy Mini robots. GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 839428333,
+                "language": "Python",
+                "last_commit": "2026-08-24T12:13:22Z",
+                "owner": "huggingface",
+                "repo": "speech-to-speech",
+                "stars": 12826
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Voice Processing"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "audiocraft",
+              "description": "Open source library for audio/music generation by Meta, which mainly includes two models, MusicGen: text-to-music model, AudioGen: text-generated sound model. MusicGen Online Demo GitHub Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 650945129,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-03-03T21:50:32Z",
+                "owner": "facebookresearch",
+                "repo": "audiocraft",
+                "stars": 23576
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI generated music or sound effects"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Seamless",
+              "description": "Seamless is a family of AI models that enable more natural and authentic communication across languages.Online Demo Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 673524886,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-07-28T13:03:12Z",
+                "owner": "facebookresearch",
+                "repo": "seamless_communication",
+                "stars": 11841
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Speech translation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Claude Video",
+              "description": "Open-source tool that lets AI agents watch and summarize videos. Extracts frames, transcripts/captions from YouTube, TikTok, or local files and answers questions grounded in both visual and audio content. Works with Claude Code and 50+ agent hosts. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1219644159,
+                "language": "Python",
+                "last_commit": "2026-07-01T01:26:49Z",
+                "owner": "bradautomates",
+                "repo": "claude-video",
+                "stars": 16114
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Video Content Summary"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Lean 4",
+              "description": "An interactive theorem prover and functional programming language, serving as the core infrastructure for formal AI research and automated theorem proving (e.g., AlphaProof, DeepSeek-Prover). Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 129571436,
+                "language": "Lean",
+                "last_commit": "2026-08-24T13:39:28Z",
+                "owner": "leanprover",
+                "repo": "lean4",
+                "stars": 8895
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Academic research"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Umi-OCR",
+              "description": "Comes with a highly efficient offline OCR engine. As long as the computer performance is sufficient, it can be faster than online OCR services. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 474839179,
+                "language": "Python",
+                "last_commit": "2025-11-20T14:58:13Z",
+                "owner": "hiroi-sora",
+                "repo": "Umi-OCR",
+                "stars": 46792
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "light-ocr",
+              "description": "Fast, offline OCR for Node.js and C++ with bundled PP-OCRv6 models and cross-platform runtimes. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1299885911,
+                "language": "C++",
+                "last_commit": "2026-08-05T08:42:29Z",
+                "owner": "arcships",
+                "repo": "light-ocr",
+                "stars": 485
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "allenai/olmocr",
+              "description": "A toolkit for training language models to work with PDF documents in the wild. Online demo: https://olmocr.allenai.org/ Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 858798469,
+                "language": "Python",
+                "last_commit": "2026-03-25T17:52:37Z",
+                "owner": "allenai",
+                "repo": "olmocr",
+                "stars": 19377
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "OCR"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Genesis",
+              "description": "High-performance simulation platform for general-purpose robotics and embodied AI. Integrates a unified multi-physics engine, photo-realistic renderer, and cross-platform compiler for training AI agents in complex physical worlds. Intro Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 712225112,
+                "language": "Python",
+                "last_commit": "2026-08-23T09:22:18Z",
+                "owner": "Genesis-Embodied-AI",
+                "repo": "genesis-world",
+                "stars": 29791
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Embodied AI & Simulation"
+        }
+      ],
+      "title": "All Categories"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-08-23T14:02:40.520Z",
+    "last_updated": "2026-08-24T13:53:34.810Z",
     "original_repository": "ikaijua/Awesome-AITools",
     "original_repository_id": 622424201,
-    "original_repository_sha": "981d7d68c155d4211be8fd3af7a70ea32852f2ab",
+    "original_repository_sha": "774db13c1c0d3ee6d3b606cf879c399f3eb68c49",
     "enhanced_repository": "enhansome/enhansome-Awesome-AITools",
     "enhanced_repository_description": null,
     "title": "Awesome AITools with stars"
