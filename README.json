@@ -8,7 +8,7 @@
             {
               "node_type": "item",
               "title": "ChatGPT",
-              "description": "🌟 OpenAI's AI assistant. Current flagship: GPT-6 Astra; September's GPT-6 Sol and GPT-6 Luna cut API prices ~50% ($2/$10 and from $0.10 input per M tokens) and are free within consumer limits. Differentiation: persistent memory and user profile — remembers context across conversations and feels the most personalized; best general-purpose assistant for coding, writing, and daily tasks. Discussion 1. URL2. API Free/Paid",
+              "description": "🌟 OpenAI's AI assistant. Current flagship: GPT-6 Astra; GPT-6.1 Sol from the Sep 29 DevDay and GPT-6 Luna cut API prices ~50% ($2/$10 and from $0.10 input per M tokens) and are free within consumer limits. Differentiation: persistent memory and user profile — remembers context across conversations and feels the most personalized; best general-purpose assistant for coding, writing, and daily tasks. More Info 1. URL2. API Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -17,11 +17,93 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Gemini",
+              "description": "🌟 Google's AI assistant. Current workhorse: Gemini 3.8 Flash (with a cybersecurity-focused 3.8 Flash Cyber variant); Gemini 4 Argon (Sep 30, 2026, 1M-token output) is claimed to beat GPT-6 Astra and Claude Opus 5.5 on some benchmarks but is only available through the controlled Fairwind program. Differentiation: native multimodality and Deep Research — best for image understanding/generation and web-based research; tightly integrated with Google Drive and Workspace. Includes Gemini Spark, a persistent background personal agent announced at I/O 2026 that continues tasks asynchronously and coordinates work across Gmail, Calendar, and Tasks (available in paid tiers). More Info 1. URL2. API Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Claude",
+              "description": "🌟 Anthropic's AI assistant. Current flagship: Claude Fable 5.1 (general) / Claude Mythos 5.1 (trusted-access); Claude Opus 5.5 (Sep 22, first of the 5.5 family) matches Fable 5.1 on most tasks at ~40% lower cost ($4/$20 per M tokens); its Artificial Analysis index of 57.6 now exceeds Fable 5.1's 53.4. Sonnet 5.5 followed on Sep 28, with Haiku 5.5 to come. Differentiation: Cowork mode turns the chatbot into an agent that can pull financial data, build Excel forecasting models, and execute workflows; strongest at coding, long-context reasoning, safety, and enterprise use. Fable 5.1 lowers typical cost by ~25% and cybersecurity false positives by ~60%. More Info 1. URL2. API Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -49,7 +131,7 @@
             {
               "node_type": "item",
               "title": "Meta Muse",
-              "description": "🌱 Meta's personal AI agent that does tasks instead of chatting: books travel, fills forms, shops, and manages email/calendars, paying via one-time Stripe Link cards. Runs in an isolated VM with a host-side Sentinel approving every sensitive action; powered by Meta's proprietary Muse Spark 1.3 model. Reached #1 on the US App Store free chart ~10 days after launch (Sept 8, 2026), overtaking ChatGPT. Currently US-only (18+); free tier ~100M tokens/week, paid plans from $20/mo. Intro URL Free/Paid",
+              "description": "🌱 Meta's personal AI agent that does tasks instead of chatting: books travel, fills forms, shops, and manages email/calendars, paying via one-time Stripe Link cards. Runs in an isolated VM with a host-side Sentinel approving every sensitive action; powered by Meta's proprietary Muse Spark 1.3 model. Currently US and Canada only (18+), on the web at muse.ai plus iOS/Android/Mac/WhatsApp; passed 5M downloads in about three weeks. Reached #1 on the US App Store free chart ~10 days after launch (Sept 8, 2026), overtaking ChatGPT. Currently US-only (18+); free tier ~100M tokens/week, paid plans from $20/mo. More Info URL Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -58,11 +140,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -90,7 +172,7 @@
             {
               "node_type": "item",
               "title": "Jev",
-              "description": "🌱 TypeSafe AI's \"System One\" decision model (early access) — it never generates text, returning typed answers from three primitives (Choice/Score/Noul) with calibrated probabilities via RLCD training, so confidence matches accuracy. Officially 20-200x faster and 1/40-1/400 cheaper than frontier LLMs on structured tasks; input $0.042/M tokens, output free; 70-500ms latency. Founded by ex-OpenAI researcher Diogo Almeida (co-inventor of RLHF); $40M seed led by DCVC. Note: official figures, not yet independently verified. Intro URL Free/Paid",
+              "description": "🌱 TypeSafe AI's \"System One\" decision model (early access) — it never generates text, returning typed answers from three primitives (Choice/Score/Noul) with calibrated probabilities via RLCD training, so confidence matches accuracy. Officially 20-200x faster and 1/40-1/400 cheaper than frontier LLMs on structured tasks; input $0.042/M tokens, output free; 70-500ms latency. Founded by ex-OpenAI researcher Diogo Almeida (co-inventor of RLHF); $40M seed led by DCVC. Note: official figures, not yet independently verified. More Info URL Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -99,11 +181,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -137,6 +219,88 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Kimi K3",
+              "description": "🌟 Moonshot AI's 2.8T-parameter flagship open-weight model. Native visual understanding, 1M-token context window, and Kimi Delta Attention (KDA). The first open-source model in the 3-trillion-parameter class; full weights were released on July 27, 2026 on Hugging Face under a Modified MIT license. More Info Technical Blog Hugging Face Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "DeepSeek-V4",
+              "description": "🌟 DeepSeek's 4th generation flagship model, MIT-licensed and open-weight on Hugging Face. V4-Pro 0813 GA rolled out Aug 13, 2026; V4-Pro (1.6T MoE, 49B activated) and V4-Flash (284B MoE, 13B activated) share a 1M-token context and native multimodality, and V4-Flash-Vision-Exp was added Aug 21. V4.1-Flash followed on Sept 10, 2026 — the first model on a new Causal-Encoder-Decoder architecture: a 552B MoE with asymmetric activation (8B input / 16B output), native multimodal vision, and MIT open weights; official benchmarks show it surpassing V4-Pro at lower price, the planned Sept 14, 2026 retirement of V4-Pro was reversed and it is still served at the original price. Architecture upgrades: Hybrid Attention (CSA + HCA) cuts long-context inference FLOPs to ~27% of V3.2 and KV cache to ~10%; Manifold-Constrained Hyper-Connections (mHC) stabilizes residuals; Muon optimizer for faster convergence. Pre-trained on 32T+ tokens. Each model ships with three reasoning effort modes — Non-think (fast), Think High, and Think Max — where Pro-Max is the strongest coding/agentic mode of the V4 generation. More Info Hugging Face Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
               "title": "DeepSeek-R1",
               "description": "DeepSeek's first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning. Github Free",
               "children": [],
@@ -151,7 +315,7 @@
                 "open_issues": 40,
                 "owner": "deepseek-ai",
                 "repo": "DeepSeek-R1",
-                "stars": 91943,
+                "stars": 91944,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -169,10 +333,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-08-28T03:24:37Z",
-                "open_issues": 269,
+                "open_issues": 270,
                 "owner": "deepseek-ai",
                 "repo": "DeepSeek-V3",
-                "stars": 104506,
+                "stars": 104509,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -193,7 +357,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27667,
+                "stars": 27666,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -210,11 +374,11 @@
                 "id": 756673810,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T18:32:39Z",
-                "open_issues": 46,
+                "last_commit": "2026-10-02T17:42:50Z",
+                "open_issues": 45,
                 "owner": "google",
                 "repo": "gemma.cpp",
-                "stars": 7050,
+                "stars": 7052,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -235,7 +399,7 @@
                 "open_issues": 222,
                 "owner": "meta-llama",
                 "repo": "llama-models",
-                "stars": 7706,
+                "stars": 7707,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -243,7 +407,7 @@
             {
               "node_type": "item",
               "title": "Mixtral",
-              "description": "Mixtral 8x7B, a high-quality sparse mixture of experts model (SMoE) with open weights. Mixtral outperforms Llama 2 70B on most benchmarks with 6x faster inference. It matches or outperforms GPT3.5 on most standard benchmarks. paper：https://arxiv.org/pdf/2401.04088.pdf news：https://mistral.ai/news/mixtral-of-experts/ mistral-inference mistral-finetune Free",
+              "description": "Mixtral 8x7B, a high-quality sparse mixture of experts model (SMoE) with open weights. Mixtral outperforms Llama 2 70B on most benchmarks with 6x faster inference. It matches or outperforms GPT3.5 on most standard benchmarks. (Note: the official mistral-inference repo was archived read-only in 2026; for deployment use vLLM, SGLang or llama.cpp.) paper：https://arxiv.org/pdf/2401.04088.pdf news：https://mistral.ai/news/mixtral-of-experts/ mistral-inference mistral-finetune Free",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -278,13 +442,48 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2024-08-30T04:17:25Z",
-                "open_issues": 125,
+                "open_issues": 126,
                 "owner": "xai-org",
                 "repo": "grok-1",
-                "stars": 52233,
+                "stars": 52232,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Phi-4",
+              "description": "Microsoft's open-weight small language model (SLM) family. Includes general, reasoning, multimodal, and vision variants (e.g., Phi-4-mini, Phi-4, Phi-4-multimodal, Phi-4-reasoning-vision) designed for efficient on-device and cloud deployment. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "This is a Phi Family of SLMs book for getting started with Phi Models. Phi a family of open sourced AI models developed by Microsoft. Phi models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks",
+                "homepage": null,
+                "id": 797465563,
+                "language": "Jupyter Notebook",
+                "license": "MIT",
+                "last_commit": "2026-09-09T00:15:59Z",
+                "open_issues": 13,
+                "owner": "microsoft",
+                "repo": "PhiCookBook",
+                "stars": 3888,
+                "topics": [
+                  "cookbook",
+                  "language-model",
+                  "phi-4",
+                  "phi-4-mini",
+                  "phi-4-multimodal",
+                  "phi3",
+                  "phi3-testing",
+                  "phi3-vision",
+                  "phi4",
+                  "phi4-mini",
+                  "phi4-multimodal",
+                  "slm",
+                  "small-language-model"
+                ]
+              },
+              "first_seen": "2026-10-02T18:43:25.838Z"
             }
           ],
           "description": null,
@@ -327,28 +526,7 @@
           "children": [
             {
               "node_type": "item",
-              "title": "Claude Code",
-              "description": "🌟 Anthropic's AI coding agent. Available in the terminal CLI, VS Code/Cursor/JetBrains IDE plugins, desktop app, and web. Built on the Claude model family, it offers long-context codebase understanding, multi-file editing, shell command execution, MCP extensions, skills/hooks/subagents, CLAUDE.md project rules, and automatic memory. Supports Remote Control to continue local sessions from your phone or browser. Intro Comparison Github Free",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-                "homepage": "https://code.claude.com/docs/en/overview",
-                "id": 937253475,
-                "language": "TypeScript",
-                "license": null,
-                "last_commit": "2026-10-01T18:43:10Z",
-                "open_issues": 14010,
-                "owner": "anthropics",
-                "repo": "claude-code",
-                "stars": 148840,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T23:13:32.546Z"
-            },
-            {
-              "node_type": "item",
-              "title": "🌟 OpenAI's open-source (Apache-2.0) terminal coding agent, written in Rust. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex App/desktop app, and Codex Web cloud tasks. It can understand and modify code directly, with kernel-level sandboxing, MCP, skills/plugins/hooks, subagents, and Remote SSH. Active sessions sync across phone/desktop/web via the ChatGPT relay. Intro",
+              "title": "🌟 Anthropic's AI coding agent. Available in the terminal CLI, VS Code/Cursor/JetBrains IDE plugins, desktop app, and web. Built on the Claude model family, it offers long-context codebase understanding, multi-file editing, shell command execution, MCP extensions, skills/hooks/subagents, CLAUDE.md project rules, and automatic memory. Supports Remote Control to continue local sessions from your phone or browser. More Info",
               "description": "Comparison",
               "children": [],
               "repo_info": {
@@ -358,11 +536,73 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "anthropics/claude-code",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+                "homepage": "https://code.claude.com/docs/en/overview",
+                "id": 937253475,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2026-10-01T18:43:10Z",
+                "open_issues": 14079,
+                "owner": "anthropics",
+                "repo": "claude-code",
+                "stars": 148953,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T23:13:32.546Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🌟 OpenAI's open-source (Apache-2.0) terminal coding agent, written in Rust. Supports the terminal CLI, VS Code/Cursor/Windsurf IDE extensions, Codex App/desktop app, and Codex Web cloud tasks. It can understand and modify code directly, with kernel-level sandboxing, MCP, skills/plugins/hooks, subagents, and Remote SSH. Active sessions sync across phone/desktop/web via the ChatGPT relay. More Info",
+              "description": "Comparison",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -399,18 +639,18 @@
                 "id": 965415649,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T18:41:28Z",
-                "open_issues": 20025,
+                "last_commit": "2026-10-02T18:29:31Z",
+                "open_issues": 20208,
                 "owner": "openai",
                 "repo": "codex",
-                "stars": 127529,
+                "stars": 127623,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
             },
             {
               "node_type": "item",
-              "title": "🌟 Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). Intro",
+              "title": "🌟 Moonshot AI's AI coding agent CLI that runs in your terminal. Reads and edits code, runs shell commands, searches files, fetches web pages, and plans next steps based on feedback. Supports video input, AI-native MCP configuration, subagents, lifecycle hooks, and ACP editor integration (Zed, JetBrains). More Info",
               "description": "Comparison",
               "children": [],
               "repo_info": {
@@ -420,11 +660,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -461,19 +701,101 @@
                 "id": 1246459259,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-30T09:39:25Z",
-                "open_issues": 1518,
+                "last_commit": "2026-10-02T12:24:22Z",
+                "open_issues": 1523,
                 "owner": "MoonshotAI",
                 "repo": "kimi-code",
-                "stars": 7753,
+                "stars": 7757,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
             },
             {
               "node_type": "item",
-              "title": "DeepSeek Harness",
-              "description": "🌱 DeepSeek's open-source (MIT) agent harness released on August 13, 2026. A full agent runtime (CLI + Web UI at 127.0.0.1:3080) with an \"everything is a plugin\" architecture powered by Cordis. Ships 40+ first-party packages (LLM, MCP, LSP, ACP, sandbox, skills, subagents, sessions, tools, plans, scheduling, web, shell, etc.) and bilingual EN/ZH architecture docs. Currently developer preview — breaking changes expected. Intro Github Free",
+              "title": "Manus",
+              "description": "🌱 An action engine that goes beyond answering questions to executing tasks, automating workflows, and extending your service capabilities. Meta's acquisition was blocked by Chinese regulators on Apr 27, 2026 and unwound; Manus returned to independent operation on Sep 1 and shipped the rebuilt Manus 2.0 (Cascade framework, always-on cloud computer) plus the Cue personal agent on Sep 28. More Info URL Free Trial/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🌱 DeepSeek's open-source (MIT) agent harness released on August 13, 2026. A full agent runtime (CLI + Web UI at 127.0.0.1:3080) with an \"everything is a plugin\" architecture powered by Cordis. Ships 40+ first-party packages (LLM, MCP, LSP, ACP, sandbox, skills, subagents, sessions, tools, plans, scheduling, web, shell, etc.) and bilingual EN/ZH architecture docs. Currently developer preview — breaking changes expected. More Info",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "deepseek-ai/deepseek-harness",
+              "description": null,
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -486,7 +808,7 @@
                 "open_issues": 0,
                 "owner": "deepseek-ai",
                 "repo": "deepseek-harness",
-                "stars": 241672,
+                "stars": 242267,
                 "topics": [
                   "ai-agents",
                   "cordis",
@@ -499,7 +821,7 @@
             {
               "node_type": "item",
               "title": "Pi",
-              "description": "Open-source (MIT) self-extensible coding agent by earendil-works. Monorepo architecture with (interactive CLI), (tool calling and state management), (unified multi-provider LLM API), , and telemetry. Features plugin architecture, supply-chain hardening (pinned deps, shrinkwrap, audit), and sandboxing patterns (Gondolin, Docker, OpenShell). Intro Github Free",
+              "description": "Open-source (MIT) self-extensible coding agent by earendil-works. Monorepo architecture with (interactive CLI), (tool calling and state management), (unified multi-provider LLM API), , and telemetry. Features plugin architecture, supply-chain hardening (pinned deps, shrinkwrap, audit), and sandboxing patterns (Gondolin, Docker, OpenShell). Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -508,11 +830,11 @@
                 "id": 1035029907,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:52:56Z",
-                "open_issues": 248,
+                "last_commit": "2026-10-02T16:49:49Z",
+                "open_issues": 256,
                 "owner": "earendil-works",
                 "repo": "pi",
-                "stars": 111074,
+                "stars": 111713,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -520,7 +842,7 @@
             {
               "node_type": "item",
               "title": "Grok build",
-              "description": "xAI's terminal-based AI coding agent, open-sourced and written in Rust. Runs as a full-screen, mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks. Supports interactive, headless (scripting/CI), and ACP editor-embedded modes, with MCP servers, skills, plugins, hooks, and sandboxing. Intro Github Free",
+              "description": "xAI's terminal-based AI coding agent, open-sourced and written in Rust. Runs as a full-screen, mouse-interactive TUI that understands your codebase, edits files, runs shell commands, searches the web, and manages long-running tasks. Supports interactive, headless (scripting/CI), and ACP editor-embedded modes, with MCP servers, skills, plugins, hooks, and sandboxing. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -533,7 +855,7 @@
                 "open_issues": 0,
                 "owner": "xai-org",
                 "repo": "grok-build",
-                "stars": 27177,
+                "stars": 27195,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -541,7 +863,7 @@
             {
               "node_type": "item",
               "title": "browser-use",
-              "description": "Open-source Python library that enables AI agents to control web browsers. Supports natural-language task execution, DOM extraction, form filling, multi-step navigation, and integration with any LLM via a simple API. Useful for building web agents, automated testing, and data extraction workflows. Intro GitHub Free",
+              "description": "Open-source Python library that enables AI agents to control web browsers. Supports natural-language task execution, DOM extraction, form filling, multi-step navigation, and integration with any LLM via a simple API. Useful for building web agents, automated testing, and data extraction workflows. GitHub Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -550,11 +872,11 @@
                 "id": 881458615,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-30T01:29:10Z",
-                "open_issues": 537,
+                "last_commit": "2026-10-02T18:41:09Z",
+                "open_issues": 534,
                 "owner": "browser-use",
                 "repo": "browser-use",
-                "stars": 116938,
+                "stars": 116998,
                 "topics": [
                   "ai-agents",
                   "ai-tools",
@@ -579,11 +901,11 @@
                 "id": 1209343409,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T15:22:30Z",
-                "open_issues": 194,
+                "last_commit": "2026-10-02T14:15:11Z",
+                "open_issues": 203,
                 "owner": "h4ckf0r0day",
                 "repo": "obscura",
-                "stars": 28240,
+                "stars": 28250,
                 "topics": [
                   "antidetect",
                   "antidetect-browser",
@@ -601,7 +923,7 @@
             {
               "node_type": "item",
               "title": "Cua",
-              "description": "Open-source infrastructure for Computer-Use Agents (CUA). Provides sandboxes, drivers, and SDKs for macOS, Windows, Linux, and Android, enabling AI to control full desktops just like a human. Intro GitHub Free",
+              "description": "Open-source infrastructure for Computer-Use Agents (CUA). Provides sandboxes, drivers, and SDKs for macOS, Windows, Linux, and Android, enabling AI to control full desktops just like a human. GitHub Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -610,11 +932,11 @@
                 "id": 925270205,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:22:52Z",
-                "open_issues": 1014,
+                "last_commit": "2026-10-02T18:32:26Z",
+                "open_issues": 1013,
                 "owner": "trycua",
                 "repo": "cua",
-                "stars": 27669,
+                "stars": 27783,
                 "topics": [
                   "agent",
                   "ai-agent",
@@ -640,7 +962,7 @@
             },
             {
               "node_type": "item",
-              "title": "Google's open-source agentic orchestration runtime — positioned as \"the Kubernetes for agents\". Declarative YAML manifests (Workspace, Task, Model) with sandboxed execution, CPU/memory limits, and SSH debugging; single-cluster design targets billions of autonomous agent workloads. Early stage, breaking changes expected. Intro",
+              "title": "Google's open-source agentic orchestration runtime — positioned as \"the Kubernetes for agents\". Declarative YAML manifests (Workspace, Task, Model) with sandboxed execution, CPU/memory limits, and SSH debugging; single-cluster design targets billions of autonomous agent workloads. Early stage, breaking changes expected. More Info",
               "description": null,
               "children": [],
               "repo_info": {
@@ -650,11 +972,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -692,17 +1014,17 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-27T23:54:26Z",
-                "open_issues": 62,
+                "open_issues": 63,
                 "owner": "google",
                 "repo": "ax",
-                "stars": 12777,
+                "stars": 12873,
                 "topics": []
               },
               "first_seen": "2026-09-28T20:15:43.552Z"
             },
             {
               "node_type": "item",
-              "title": "Google's open-source framework that turns natural-language instructions into reliable Android automation: cross-app task execution, multimodal targeting (element indexing + coordinates + vision), and Flash (fast reactive) / Pro (multi-agent planning) execution modes. 99%+ completion on the AndroidWorld benchmark. Ships a Web UI console, MCP server, Python SDK, and CLI for integration with Claude Code, Codex and other agents. Intro",
+              "title": "Google's open-source framework that turns natural-language instructions into reliable Android automation: cross-app task execution, multimodal targeting (element indexing + coordinates + vision), and Flash (fast reactive) / Pro (multi-agent planning) execution modes. 99%+ completion on the AndroidWorld benchmark. Ships a Web UI console, MCP server, Python SDK, and CLI for integration with Claude Code, Codex and other agents. More Info",
               "description": null,
               "children": [],
               "repo_info": {
@@ -712,11 +1034,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -753,11 +1075,11 @@
                 "id": 1333399642,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-29T00:38:54Z",
-                "open_issues": 121,
+                "last_commit": "2026-10-01T21:37:15Z",
+                "open_issues": 120,
                 "owner": "google",
                 "repo": "artemis",
-                "stars": 10808,
+                "stars": 10868,
                 "topics": [
                   "ai-agents",
                   "android",
@@ -771,7 +1093,7 @@
             {
               "node_type": "item",
               "title": "OpenClaw",
-              "description": "Open-source self-hosted AI agent that runs locally and autonomously executes tasks. Connects to WhatsApp, Telegram, Slack, Discord and other messaging platforms, with browser control, system access, and persistent memory. Developed by Peter Steinberger, one of the fastest-growing open-source projects. Intro Github Free",
+              "description": "Open-source self-hosted AI agent that runs locally and autonomously executes tasks. Connects to WhatsApp, Telegram, Slack, Discord and other messaging platforms, with browser control, system access, and persistent memory. Developed by Peter Steinberger; after he joined OpenAI in Feb 2026 the project moved to the independently run OpenClaw Foundation (non-profit status later in 2026, chaired by Dave Morin) with continued OpenAI support. One of the fastest-growing open-source projects. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -780,11 +1102,11 @@
                 "id": 1103012935,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T19:03:41Z",
-                "open_issues": 9155,
+                "last_commit": "2026-10-02T18:43:24Z",
+                "open_issues": 9202,
                 "owner": "openclaw",
                 "repo": "openclaw",
-                "stars": 391139,
+                "stars": 391187,
                 "topics": [
                   "ai",
                   "assistant",
@@ -800,7 +1122,7 @@
             {
               "node_type": "item",
               "title": "OpenWorker",
-              "description": "Open-source, local-first desktop AI coworker by Andrew Ng. Delivers finished work (documents, Slack replies, calendar updates, reports) rather than chat answers. Supports 35+ app connectors, MCP, and bring-your-own-key models (OpenAI, Anthropic, Gemini, DeepSeek, Kimi, Qwen, Ollama, etc.) with local storage of data and credentials. Intro Github Free",
+              "description": "Open-source, local-first desktop AI coworker by Andrew Ng. Delivers finished work (documents, Slack replies, calendar updates, reports) rather than chat answers. Supports 25+ app connectors, MCP, and bring-your-own-key models (OpenAI, Anthropic, Gemini, DeepSeek, Kimi, Qwen, Ollama, etc.) with local storage of data and credentials. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -809,11 +1131,11 @@
                 "id": 1306128367,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-01T13:39:58Z",
-                "open_issues": 516,
+                "last_commit": "2026-10-02T11:23:49Z",
+                "open_issues": 519,
                 "owner": "andrewyng",
                 "repo": "openworker",
-                "stars": 18393,
+                "stars": 18403,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -834,7 +1156,7 @@
                 "open_issues": 195,
                 "owner": "karpathy",
                 "repo": "autoresearch",
-                "stars": 97109,
+                "stars": 97142,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -842,7 +1164,7 @@
             {
               "node_type": "item",
               "title": "ml-intern",
-              "description": "An open-source, autonomous AI agent by Hugging Face designed to function as a specialized Machine Learning Engineer. It handles the end-to-end ML lifecycle, including researching papers, writing code, running experiments, and shipping models to the Hugging Face Hub. Intro Github Free",
+              "description": "An open-source, autonomous AI agent by Hugging Face designed to function as a specialized Machine Learning Engineer. It handles the end-to-end ML lifecycle, including researching papers, writing code, running experiments, and shipping models to the Hugging Face Hub. Github Free",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -855,7 +1177,7 @@
                 "open_issues": 0,
                 "owner": "huggingface",
                 "repo": "ml-intern",
-                "stars": 10813,
+                "stars": 10810,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -863,7 +1185,7 @@
             {
               "node_type": "item",
               "title": "Dexter",
-              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Intro Github Free",
+              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -873,10 +1195,10 @@
                 "language": "TypeScript",
                 "license": null,
                 "last_commit": "2026-09-23T19:56:36Z",
-                "open_issues": 104,
+                "open_issues": 105,
                 "owner": "virattt",
                 "repo": "dexter",
-                "stars": 27648,
+                "stars": 27630,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -884,7 +1206,7 @@
             {
               "node_type": "item",
               "title": "Multica",
-              "description": "Open-source managed agents platform to integrate AI coding agents (Claude Code, Codex, Cursor, Copilot, OpenCode, OpenClaw, Hermes, Gemini, Pi, Kimi, Kiro CLI, and more) into dev teams as first-class teammates. Features task assignment, progress tracking, reusable skills, and local daemon auto-detection of installed agent CLIs. Intro Github Free/Paid",
+              "description": "Open-source managed agents platform to integrate AI coding agents (Claude Code, Codex, Cursor, Copilot, OpenCode, OpenClaw, Hermes, Gemini, Pi, Kimi, Kiro CLI, and more) into dev teams as first-class teammates. Features task assignment, progress tracking, reusable skills, and local daemon auto-detection of installed agent CLIs. Github Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -893,11 +1215,11 @@
                 "id": 1133707766,
                 "language": "Go",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T10:21:08Z",
-                "open_issues": 1744,
+                "last_commit": "2026-10-02T14:25:26Z",
+                "open_issues": 1753,
                 "owner": "multica-ai",
                 "repo": "multica",
-                "stars": 51804,
+                "stars": 51853,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -905,7 +1227,7 @@
             {
               "node_type": "item",
               "title": "Paperclip",
-              "description": "Open-source AI agent orchestration platform that models AI operations as a company. Define org charts, reporting lines, budgets, and governance policies, then let agents work autonomously within that structure. Supports OpenClaw, Claude Code, Codex, and other agent backends. Heartbeat-based execution with cost controls and audit trails. Intro Github Free",
+              "description": "Open-source AI agent orchestration platform that models AI operations as a company. Define org charts, reporting lines, budgets, and governance policies, then let agents work autonomously within that structure. Supports OpenClaw, Claude Code, Codex, and other agent backends. Heartbeat-based execution with cost controls and audit trails. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -914,11 +1236,11 @@
                 "id": 1170821064,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:52:59Z",
-                "open_issues": 6236,
+                "last_commit": "2026-10-02T18:28:49Z",
+                "open_issues": 6260,
                 "owner": "paperclipai",
                 "repo": "paperclip",
-                "stars": 95743,
+                "stars": 96192,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -926,7 +1248,7 @@
             {
               "node_type": "item",
               "title": "Symphony",
-              "description": "OpenAI's open-source project-to-delivery harness. Turns project requirements into isolated, autonomous implementation runs; agents monitor boards like Linear, open PRs, and merge code with proof-of-work (CI status, review feedback, demo videos). Currently in engineering preview. Intro Github Free",
+              "description": "OpenAI's open-source project-to-delivery harness. Turns project requirements into isolated, autonomous implementation runs; agents monitor boards like Linear, open PRs, and merge code with proof-of-work (CI status, review feedback, demo videos). Currently in engineering preview. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -939,7 +1261,7 @@
                 "open_issues": 8,
                 "owner": "openai",
                 "repo": "symphony",
-                "stars": 27502,
+                "stars": 27508,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -947,7 +1269,7 @@
             {
               "node_type": "item",
               "title": "QM",
-              "description": "YC open-source multi-agent harness for organizations. Runs on Slack and Web with scoped workspaces (memory, files, credentials, permissions) per employee/project/channel; headless core with replaceable models/harnesses and self-hostable via Docker/Fly/AWS. Intro Github Free",
+              "description": "YC open-source multi-agent harness for organizations. Runs on Slack and Web with scoped workspaces (memory, files, credentials, permissions) per employee/project/channel; headless core with replaceable models/harnesses and self-hostable via Docker/Fly/AWS. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -956,11 +1278,11 @@
                 "id": 1316527318,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:59:02Z",
-                "open_issues": 641,
+                "last_commit": "2026-10-02T16:39:28Z",
+                "open_issues": 809,
                 "owner": "yc-software",
                 "repo": "qm",
-                "stars": 15308,
+                "stars": 15316,
                 "topics": [
                   "ai",
                   "assistant",
@@ -973,7 +1295,7 @@
             {
               "node_type": "item",
               "title": "Buzz",
-              "description": "Open-source, self-hostable workspace where humans and AI agents share the same rooms. Agents get their own keys and audit trail to open repos, send patches, review code, run workflows, edit canvases, and join voice huddles. Built on a Nostr relay so every message and action is a signed event. Intro Github Free",
+              "description": "Open-source, self-hostable workspace where humans and AI agents share the same rooms. Agents get their own keys and audit trail to open repos, send patches, review code, run workflows, edit canvases, and join voice huddles. Built on a Nostr relay so every message and action is a signed event. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -982,11 +1304,11 @@
                 "id": 1174789082,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T19:01:47Z",
-                "open_issues": 3612,
+                "last_commit": "2026-10-02T18:39:57Z",
+                "open_issues": 3613,
                 "owner": "block",
                 "repo": "buzz",
-                "stars": 35384,
+                "stars": 35419,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -994,7 +1316,7 @@
             {
               "node_type": "item",
               "title": "deer-flow",
-              "description": "ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, memory, sandboxes, tools, skills, and message gateways to research, code, and create. Built on LangGraph/LangChain with a web UI and multi-provider LLM support. Intro Github Free",
+              "description": "ByteDance's open-source long-horizon SuperAgent harness. Orchestrates sub-agents, memory, sandboxes, tools, skills, and message gateways to research, code, and create. Built on LangGraph/LangChain with a web UI and multi-provider LLM support. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1003,11 +1325,11 @@
                 "id": 979115477,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-01T12:36:36Z",
-                "open_issues": 895,
+                "last_commit": "2026-10-02T15:49:22Z",
+                "open_issues": 903,
                 "owner": "bytedance",
                 "repo": "deer-flow",
-                "stars": 83309,
+                "stars": 83330,
                 "topics": [
                   "agent",
                   "agentic",
@@ -1043,11 +1365,11 @@
                 "id": 1224575142,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T08:26:42Z",
-                "open_issues": 14,
+                "last_commit": "2026-10-02T06:26:54Z",
+                "open_issues": 12,
                 "owner": "Orkas-AI",
                 "repo": "Orkas",
-                "stars": 2142,
+                "stars": 2148,
                 "topics": [
                   "agent-collaboration",
                   "agent-orchestration",
@@ -1076,7 +1398,7 @@
             {
               "node_type": "item",
               "title": "Orca",
-              "description": "Cross-platform Agent Development Environment (ADE) for orchestrating fleets of parallel AI coding agents. Run Claude Code, Codex, OpenCode, Pi, and any CLI agent side-by-side in isolated git worktrees, compare outputs, and merge the winner. Features mobile companion, terminal splits, Design Mode for capturing Chromium UI elements, GitHub/Linear integration, SSH worktrees, AI diff annotations, and Computer Use. Intro Website Github Free",
+              "description": "Cross-platform Agent Development Environment (ADE) for orchestrating fleets of parallel AI coding agents. Run Claude Code, Codex, OpenCode, Pi, and any CLI agent side-by-side in isolated git worktrees, compare outputs, and merge the winner. Features mobile companion, terminal splits, Design Mode for capturing Chromium UI elements, GitHub/Linear integration, SSH worktrees, AI diff annotations, and Computer Use. Website Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1085,11 +1407,11 @@
                 "id": 1183888342,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T19:02:14Z",
-                "open_issues": 7291,
+                "last_commit": "2026-10-02T18:41:40Z",
+                "open_issues": 7566,
                 "owner": "stablyai",
                 "repo": "orca",
-                "stars": 83047,
+                "stars": 83759,
                 "topics": [
                   "ade",
                   "agent-ide",
@@ -1129,7 +1451,7 @@
                 "open_issues": 23,
                 "owner": "AgentsMesh",
                 "repo": "AgentsMesh",
-                "stars": 2359,
+                "stars": 2360,
                 "topics": [
                   "agent-orchestration",
                   "agentsmesh",
@@ -1159,10 +1481,10 @@
                 "language": "Python",
                 "license": "CC-BY-4.0",
                 "last_commit": "2026-04-15T11:59:09Z",
-                "open_issues": 1120,
+                "open_issues": 1110,
                 "owner": "microsoft",
                 "repo": "autogen",
-                "stars": 61250,
+                "stars": 61248,
                 "topics": [
                   "agentic",
                   "agentic-agi",
@@ -1181,7 +1503,7 @@
             {
               "node_type": "item",
               "title": "msitarzewski/agency-agents",
-              "description": "Open-source AI agency toolkit with 230+ specialized agent personas across engineering, design, marketing, sales, finance, game dev, healthcare, and more. Features ready-to-use agent personalities, workflow templates, deliverables, and a native desktop app to browse/install agents into Claude Code, Cursor, Codex, Gemini, Kimi Code, Aider, and other AI dev tools. Intro Github Free",
+              "description": "Open-source AI agency toolkit with 230+ specialized agent personas across engineering, design, marketing, sales, finance, game dev, healthcare, and more. Features ready-to-use agent personalities, workflow templates, deliverables, and a native desktop app to browse/install agents into Claude Code, Cursor, Codex, Gemini, Kimi Code, Aider, and other AI dev tools. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1190,11 +1512,11 @@
                 "id": 1075372545,
                 "language": "Shell",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:13:11Z",
-                "open_issues": 148,
+                "last_commit": "2026-10-01T19:35:40Z",
+                "open_issues": 182,
                 "owner": "msitarzewski",
                 "repo": "agency-agents",
-                "stars": 155615,
+                "stars": 155783,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1211,11 +1533,11 @@
                 "id": 1136590548,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-09-30T18:45:04Z",
-                "open_issues": 257,
+                "last_commit": "2026-10-02T02:01:14Z",
+                "open_issues": 339,
                 "owner": "affaan-m",
                 "repo": "ECC",
-                "stars": 270587,
+                "stars": 271063,
                 "topics": [
                   "ai-agents",
                   "anthropic",
@@ -1232,7 +1554,7 @@
             {
               "node_type": "item",
               "title": "CC Switch",
-              "description": "Cross-platform desktop app to manage Claude Code, Codex, Gemini CLI, OpenCode, and OpenClaw. Features visual configuration for API providers, MCP servers, and skills with bidirectional sync. Intro Github Free",
+              "description": "Cross-platform desktop app to manage Claude Code, Codex, Gemini CLI, OpenCode, and OpenClaw. Features visual configuration for API providers, MCP servers, and skills with bidirectional sync. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1241,11 +1563,11 @@
                 "id": 1031912724,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:41:18Z",
-                "open_issues": 2963,
+                "last_commit": "2026-10-02T17:45:32Z",
+                "open_issues": 2953,
                 "owner": "farion1231",
                 "repo": "cc-switch",
-                "stars": 139361,
+                "stars": 139547,
                 "topics": [
                   "ai-tools",
                   "claude-code",
@@ -1284,10 +1606,10 @@
                 "language": "JavaScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-07-08T00:17:31Z",
-                "open_issues": 514,
+                "open_issues": 515,
                 "owner": "openai",
                 "repo": "codex-plugin-cc",
-                "stars": 33755,
+                "stars": 33775,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1308,7 +1630,7 @@
                 "open_issues": 3,
                 "owner": "Houseofmvps",
                 "repo": "codesight",
-                "stars": 1411,
+                "stars": 1410,
                 "topics": [
                   "ai",
                   "claude",
@@ -1331,7 +1653,7 @@
             {
               "node_type": "item",
               "title": "AGENTS.md",
-              "description": "An open standard for codebase documentation designed specifically for AI coding agents. Provides structured context, instructions, and constraints to help agents work more effectively and safely. Intro Github Free",
+              "description": "An open standard for codebase documentation designed specifically for AI coding agents. Provides structured context, instructions, and constraints to help agents work more effectively and safely. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1344,7 +1666,7 @@
                 "open_issues": 180,
                 "owner": "agentsmd",
                 "repo": "agents.md",
-                "stars": 24729,
+                "stars": 24738,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1361,11 +1683,11 @@
                 "id": 1042367133,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-01T17:16:57Z",
-                "open_issues": 274,
+                "last_commit": "2026-10-02T18:02:58Z",
+                "open_issues": 265,
                 "owner": "github",
                 "repo": "spec-kit",
-                "stars": 139705,
+                "stars": 139817,
                 "topics": [
                   "ai",
                   "copilot",
@@ -1391,18 +1713,18 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-09-26T15:00:04Z",
-                "open_issues": 1162,
+                "open_issues": 1164,
                 "owner": "musistudio",
                 "repo": "claude-code-router",
-                "stars": 37499,
+                "stars": 37515,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
             },
             {
               "node_type": "item",
-              "title": "instructkr/claw-code",
-              "description": "A reimplementation of Anthropic's Claude Code agent harness, currently being rewritten in Rust for memory safety. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation Github Free",
+              "title": "ultraworkers/claw-code",
+              "description": "Rust reimplementation of Anthropic's Claude Code agent harness, now renamed agent-code (the claw-code crate on crates.io is a deprecated stub that only prints a rename notice). Maintained autonomously by agents as a showcase project; for production use the maintainers recommend LazyCodex or Gajae-Code. Focuses on building a better tool harness for AI agents with legal/ethical reimplementation Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1415,7 +1737,7 @@
                 "open_issues": 48,
                 "owner": "ultraworkers",
                 "repo": "claw-code",
-                "stars": 195278,
+                "stars": 195240,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1423,7 +1745,7 @@
             {
               "node_type": "item",
               "title": "MemPalace",
-              "description": "Open-source AI memory system that stores full conversations and project data locally without cloud dependencies. Organizes memories into a hierarchical \"palace\" structure, achieves 96.6% recall on LongMemEval benchmarks (highest scoring), supports MCP integration and works offline with local LLMs. Github Free",
+              "description": "Open-source AI memory system that stores full conversations and project data locally without cloud dependencies. Organizes memories into a hierarchical \"palace\" structure, achieves 96.6% recall on LongMemEval — the highest published score for a fully local setup that calls no APIs, supports MCP integration and works offline with local LLMs. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1432,11 +1754,11 @@
                 "id": 1201656210,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-29T11:22:35Z",
-                "open_issues": 773,
+                "last_commit": "2026-10-02T16:14:39Z",
+                "open_issues": 785,
                 "owner": "MemPalace",
                 "repo": "mempalace",
-                "stars": 59383,
+                "stars": 59384,
                 "topics": [
                   "ai",
                   "chromadb",
@@ -1451,7 +1773,7 @@
             {
               "node_type": "item",
               "title": "TencentDB Agent Memory",
-              "description": "Tencent Cloud's open-source memory infrastructure for agent teams. Provides Memory Hub for cross-session/cross-agent memory sharing, Chat Memory with L0–L3 distillation, Skill library for reusable expertise, and Wiki/CodeGraph for docs/code knowledge maps. Works with Claude Code, CodeBuddy, and other agents. Intro Github Free",
+              "description": "Tencent Cloud's open-source memory infrastructure for agent teams. Provides Memory Hub for cross-session/cross-agent memory sharing, Chat Memory with L0–L3 distillation, Skill library for reusable expertise, and Wiki/CodeGraph for docs/code knowledge maps. Works with Claude Code, CodeBuddy, and other agents. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1461,10 +1783,10 @@
                 "language": "TypeScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-29T08:48:49Z",
-                "open_issues": 880,
+                "open_issues": 885,
                 "owner": "TencentCloud",
                 "repo": "TencentDB-Agent-Memory",
-                "stars": 27619,
+                "stars": 27644,
                 "topics": [
                   "agent",
                   "ai-agent",
@@ -1491,11 +1813,11 @@
                 "id": 1024554267,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:52:51Z",
-                "open_issues": 48105,
+                "last_commit": "2026-10-02T18:41:22Z",
+                "open_issues": 48378,
                 "owner": "NousResearch",
                 "repo": "hermes-agent",
-                "stars": 250562,
+                "stars": 250726,
                 "topics": [
                   "ai",
                   "ai-agent",
@@ -1521,16 +1843,16 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
+                "description": "YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context",
                 "homepage": "https://screenpipe.com",
                 "id": 817326197,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T18:51:34Z",
+                "last_commit": "2026-10-02T18:30:40Z",
                 "open_issues": 38,
                 "owner": "screenpipe",
                 "repo": "screenpipe",
-                "stars": 21791,
+                "stars": 21793,
                 "topics": [
                   "agents",
                   "agi",
@@ -1563,16 +1885,16 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
+                "description": "YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context",
                 "homepage": "https://screenpipe.com",
                 "id": 817326197,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T18:51:34Z",
+                "last_commit": "2026-10-02T18:30:40Z",
                 "open_issues": 38,
                 "owner": "screenpipe",
                 "repo": "screenpipe",
-                "stars": 21791,
+                "stars": 21793,
                 "topics": [
                   "agents",
                   "agi",
@@ -1610,11 +1932,11 @@
                 "id": 839037098,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T18:51:38Z",
-                "open_issues": 482,
+                "last_commit": "2026-10-02T18:41:51Z",
+                "open_issues": 497,
                 "owner": "mastra-ai",
                 "repo": "mastra",
-                "stars": 28482,
+                "stars": 28515,
                 "topics": [
                   "agents",
                   "ai",
@@ -1646,10 +1968,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-09-30T07:03:35Z",
-                "open_issues": 115,
+                "open_issues": 116,
                 "owner": "bytedance",
                 "repo": "flowgram.ai",
-                "stars": 8480,
+                "stars": 8479,
                 "topics": [
                   "ai",
                   "automation",
@@ -1676,7 +1998,7 @@
             {
               "node_type": "item",
               "title": "Conductor",
-              "description": "Netflix-originated open-source durable workflow engine now focused on AI agent orchestration. Provides event-driven execution, durable state, retries/timeouts, 14+ LLM providers, MCP tool calling, function calling, human-in-the-loop approval, and vector DB integration for RAG. Trusted in production at Netflix, Tesla, LinkedIn, and J.P. Morgan. Intro Github Free",
+              "description": "Netflix-originated open-source durable workflow engine now focused on AI agent orchestration. Provides event-driven execution, durable state, retries/timeouts, 14+ LLM providers, MCP tool calling, function calling, human-in-the-loop approval, and vector DB integration for RAG. Trusted in production at Netflix, Tesla, LinkedIn, and J.P. Morgan. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1685,11 +2007,11 @@
                 "id": 728981719,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T17:15:18Z",
-                "open_issues": 263,
+                "last_commit": "2026-10-02T17:43:40Z",
+                "open_issues": 264,
                 "owner": "conductor-oss",
                 "repo": "conductor",
-                "stars": 32248,
+                "stars": 32258,
                 "topics": [
                   "distributed-systems",
                   "durable-execution",
@@ -1712,7 +2034,7 @@
             {
               "node_type": "item",
               "title": "DeepTutor",
-              "description": "An agent-native learning workspace by HKUDS that unifies AI tutoring, problem solving, quiz generation, research, visualization, and mastery practice. Features multi-engine RAG, persistent memory, Partners/My Agents, and live coding CLI integration. Intro Github Free",
+              "description": "An agent-native learning workspace by HKUDS that unifies AI tutoring, problem solving, quiz generation, research, visualization, and mastery practice. Features multi-engine RAG, persistent memory, Partners/My Agents, and live coding CLI integration. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1722,10 +2044,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-27T05:34:30Z",
-                "open_issues": 254,
+                "open_issues": 257,
                 "owner": "HKUDS",
                 "repo": "DeepTutor",
-                "stars": 40616,
+                "stars": 40683,
                 "topics": [
                   "ai-agents",
                   "ai-tutor",
@@ -1756,7 +2078,7 @@
                 "open_issues": 113,
                 "owner": "potpie-ai",
                 "repo": "potpie",
-                "stars": 5737,
+                "stars": 5736,
                 "topics": [
                   "agents",
                   "ai-agents",
@@ -1785,10 +2107,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-30T09:47:13Z",
-                "open_issues": 560,
+                "open_issues": 565,
                 "owner": "agentscope-ai",
                 "repo": "agentscope",
-                "stars": 32645,
+                "stars": 32674,
                 "topics": [
                   "agent",
                   "chatbot",
@@ -1809,7 +2131,7 @@
             {
               "node_type": "item",
               "title": "Auto-GPT",
-              "description": "Open source, An experimental open-source attempt to make GPT-4 fully autonomous. GitHub Free",
+              "description": "Open source, An experimental open-source attempt to make GPT-4 fully autonomous. Now split into the hosted commercial AutoGPT Platform (Polyform Shield, paid) and the tree (original CLI, Forge, benchmarks — MIT, security fixes only, no new features). GitHub Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1818,11 +2140,11 @@
                 "id": 614765452,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T18:56:38Z",
-                "open_issues": 604,
+                "last_commit": "2026-10-02T18:33:33Z",
+                "open_issues": 594,
                 "owner": "Significant-Gravitas",
                 "repo": "AutoGPT",
-                "stars": 187637,
+                "stars": 187641,
                 "topics": [
                   "agentic-ai",
                   "agents",
@@ -1852,10 +2174,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-22T02:01:29Z",
-                "open_issues": 121,
+                "open_issues": 141,
                 "owner": "HKUDS",
                 "repo": "CLI-Anything",
-                "stars": 51201,
+                "stars": 51343,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1863,7 +2185,7 @@
             {
               "node_type": "item",
               "title": "Understand Anything",
-              "description": "AI-powered codebase and knowledge base analysis tool that builds interactive visual knowledge graphs. Features multi-agent analysis, architecture guided tours, and semantic search for large codebases. Works as a plugin for Claude Code, Cursor, and more. Intro Github Free",
+              "description": "AI-powered codebase and knowledge base analysis tool that builds interactive visual knowledge graphs. Features multi-agent analysis, architecture guided tours, and semantic search for large codebases. Works as a plugin for Claude Code, Cursor, and more. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1872,11 +2194,11 @@
                 "id": 1182081931,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T07:55:39Z",
-                "open_issues": 309,
+                "last_commit": "2026-10-02T03:34:42Z",
+                "open_issues": 308,
                 "owner": "Egonex-AI",
                 "repo": "Understand-Anything",
-                "stars": 84936,
+                "stars": 85036,
                 "topics": [
                   "antigravity-skills",
                   "business-knowledge",
@@ -1911,8 +2233,8 @@
                 "id": 868173144,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T19:02:02Z",
-                "open_issues": 47,
+                "last_commit": "2026-10-02T18:38:31Z",
+                "open_issues": 50,
                 "owner": "kortix-ai",
                 "repo": "suna",
                 "stars": 20240,
@@ -1947,7 +2269,7 @@
                 "open_issues": 1392,
                 "owner": "anthropics",
                 "repo": "skills",
-                "stars": 179298,
+                "stars": 179395,
                 "topics": [
                   "agent-skills"
                 ]
@@ -1967,10 +2289,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-09-08T20:35:26Z",
-                "open_issues": 301,
+                "open_issues": 300,
                 "owner": "openai",
                 "repo": "skills",
-                "stars": 27836,
+                "stars": 27846,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -1991,7 +2313,7 @@
                 "open_issues": 19,
                 "owner": "JimLiu",
                 "repo": "baoyu-skills",
-                "stars": 26247,
+                "stars": 26252,
                 "topics": [
                   "agent-skills",
                   "claude-skills",
@@ -2013,11 +2335,11 @@
                 "id": 1179264259,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:57:48Z",
-                "open_issues": 951,
+                "last_commit": "2026-10-02T18:11:01Z",
+                "open_issues": 830,
                 "owner": "garrytan",
                 "repo": "gstack",
-                "stars": 134686,
+                "stars": 134765,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -2034,11 +2356,11 @@
                 "id": 1158722119,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-09-26T04:19:38Z",
-                "open_issues": 121,
+                "last_commit": "2026-10-02T03:29:29Z",
+                "open_issues": 120,
                 "owner": "addyosmani",
                 "repo": "agent-skills",
-                "stars": 100301,
+                "stars": 100468,
                 "topics": [
                   "agent-skills",
                   "antigravity",
@@ -2066,7 +2388,7 @@
                 "open_issues": 42,
                 "owner": "phuryn",
                 "repo": "pm-skills",
-                "stars": 26717,
+                "stars": 26727,
                 "topics": [
                   "agent-skill-repository",
                   "agent-skills",
@@ -2091,11 +2413,11 @@
                 "id": 1187630119,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T04:58:24Z",
-                "open_issues": 161,
+                "last_commit": "2026-10-02T18:40:00Z",
+                "open_issues": 150,
                 "owner": "NVIDIA",
                 "repo": "SkillSpector",
-                "stars": 18930,
+                "stars": 19073,
                 "topics": [
                   "agent-security",
                   "agent-skills",
@@ -2115,7 +2437,7 @@
             {
               "node_type": "item",
               "title": "Superpowers",
-              "description": "A complete software development methodology for coding agents, built on composable skills. Enforces spec-driven design, TDD, systematic debugging, code review, and subagent-driven development across Claude Code, Codex, Cursor, Kimi Code, OpenCode, Antigravity, GitHub Copilot CLI, and Pi. Intro Github Free",
+              "description": "A complete software development methodology for coding agents, built on composable skills. Enforces spec-driven design, TDD, systematic debugging, code review, and subagent-driven development across Claude Code, Codex, Cursor, Kimi Code, OpenCode, Antigravity, GitHub Copilot CLI, and Pi. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2125,10 +2447,10 @@
                 "language": "Shell",
                 "license": "MIT",
                 "last_commit": "2026-09-27T02:37:47Z",
-                "open_issues": 293,
+                "open_issues": 295,
                 "owner": "obra",
                 "repo": "superpowers",
-                "stars": 293864,
+                "stars": 294341,
                 "topics": [
                   "ai",
                   "brainstorming",
@@ -2155,10 +2477,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-01T01:19:40Z",
-                "open_issues": 138,
+                "open_issues": 139,
                 "owner": "mvanhorn",
                 "repo": "last30days-skill",
-                "stars": 63336,
+                "stars": 63372,
                 "topics": [
                   "ai-prompts",
                   "ai-skill",
@@ -2197,10 +2519,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-25T01:25:54Z",
-                "open_issues": 200,
+                "open_issues": 203,
                 "owner": "bradautomates",
                 "repo": "claude-video",
-                "stars": 17898,
+                "stars": 17944,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -2218,10 +2540,10 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-25T10:52:17Z",
-                "open_issues": 50,
+                "open_issues": 51,
                 "owner": "agentrhq",
                 "repo": "webcmd",
-                "stars": 2623,
+                "stars": 2634,
                 "topics": [
                   "ai-agents",
                   "browser-automation",
@@ -2253,11 +2575,11 @@
                 "id": 1130564872,
                 "language": "TypeScript",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-10-01T18:44:49Z",
-                "open_issues": 347,
+                "last_commit": "2026-10-02T18:18:29Z",
+                "open_issues": 346,
                 "owner": "koala73",
                 "repo": "worldmonitor",
-                "stars": 87660,
+                "stars": 87666,
                 "topics": [
                   "agent",
                   "ai",
@@ -2284,8 +2606,49 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Cursor",
+              "description": "🌟 AI coding agent and editor; a wholly owned SpaceX (SpaceXAI) subsidiary since August 2026. Switch between OpenAI, Anthropic, Gemini, Grok and Cursor's own Composer models, and run parallel agents across desktop, CLI, Slack and GitHub. More Info URL Paid/Free Trial",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
               "title": "OpenCode",
-              "description": "Open-source terminal-native AI coding agent. Provider-agnostic (Anthropic, OpenAI, Google, local models), with a TUI client/server architecture, LSP integration, and support for custom agents and MCP servers. Intro URL Github Free",
+              "description": "Open-source terminal-native AI coding agent. Provider-agnostic (Anthropic, OpenAI, Google, local models), with a TUI client/server architecture, LSP integration, and support for custom agents and MCP servers. URL Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2294,11 +2657,11 @@
                 "id": 975734319,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T19:02:01Z",
-                "open_issues": 6212,
+                "last_commit": "2026-10-02T18:40:28Z",
+                "open_issues": 6225,
                 "owner": "anomalyco",
                 "repo": "opencode",
-                "stars": 211304,
+                "stars": 211463,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -2306,7 +2669,7 @@
             {
               "node_type": "item",
               "title": "OpenChamber",
-              "description": "Desktop and web GUI for the OpenCode AI agent. Provides session management, diffs, and workspace control on top of OpenCode. Intro URL Github Free",
+              "description": "Desktop and web GUI for the OpenCode AI agent. Provides session management, diffs, and workspace control on top of OpenCode. URL Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2315,11 +2678,11 @@
                 "id": 1054790989,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T17:33:21Z",
-                "open_issues": 579,
+                "last_commit": "2026-10-02T17:56:37Z",
+                "open_issues": 593,
                 "owner": "openchamber",
                 "repo": "openchamber",
-                "stars": 11006,
+                "stars": 11035,
                 "topics": [
                   "agentic-engineering",
                   "agents",
@@ -2333,7 +2696,7 @@
             {
               "node_type": "item",
               "title": "oh-my-pi",
-              "description": "Fork of Pi by @can1357. A terminal-native AI coding agent with the IDE wired in: LSP, DAP debugging, Python/Bun code execution, 40+ providers, and 32 built-in tools. Intro Github Free",
+              "description": "Fork of Pi by @can1357. A terminal-native AI coding agent with the IDE wired in: LSP, DAP debugging, Python/Bun code execution, 40+ providers, and 32 built-in tools. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2342,11 +2705,11 @@
                 "id": 1125856365,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T17:51:05Z",
-                "open_issues": 3396,
+                "last_commit": "2026-10-02T15:44:05Z",
+                "open_issues": 3369,
                 "owner": "can1357",
                 "repo": "oh-my-pi",
-                "stars": 33975,
+                "stars": 34105,
                 "topics": [
                   "ai-agent",
                   "ai-coding-agent",
@@ -2379,11 +2742,11 @@
                 "id": 1021895365,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T03:52:09Z",
-                "open_issues": 1053,
+                "last_commit": "2026-10-02T12:53:57Z",
+                "open_issues": 1058,
                 "owner": "slopus",
                 "repo": "happy",
-                "stars": 23972,
+                "stars": 23984,
                 "topics": [
                   "claude-code",
                   "claude-desktop",
@@ -2407,11 +2770,11 @@
                 "id": 228700143,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-27T21:29:19Z",
-                "open_issues": 155,
+                "last_commit": "2026-10-01T19:22:39Z",
+                "open_issues": 153,
                 "owner": "plasma-umass",
                 "repo": "scalene",
-                "stars": 13522,
+                "stars": 13521,
                 "topics": [
                   "cpu",
                   "cpu-profiling",
@@ -2447,7 +2810,7 @@
                 "open_issues": 18,
                 "owner": "HexmosTech",
                 "repo": "git-lrc",
-                "stars": 1469,
+                "stars": 1468,
                 "topics": [
                   "ai",
                   "ai-agents",
@@ -2478,11 +2841,11 @@
                 "id": 1241960226,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-29T14:33:37Z",
-                "open_issues": 252,
+                "last_commit": "2026-10-01T20:40:46Z",
+                "open_issues": 260,
                 "owner": "alibaba",
                 "repo": "open-code-review",
-                "stars": 43145,
+                "stars": 43325,
                 "topics": [
                   "agent",
                   "agent-skills",
@@ -2506,11 +2869,11 @@
                 "id": 956679248,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T18:38:08Z",
-                "open_issues": 135,
+                "last_commit": "2026-10-02T18:31:23Z",
+                "open_issues": 143,
                 "owner": "kodustech",
                 "repo": "kodus-ai",
-                "stars": 1437,
+                "stars": 1439,
                 "topics": [
                   "ai",
                   "ai-agents",
@@ -2547,7 +2910,7 @@
                 "open_issues": 74,
                 "owner": "steel-dev",
                 "repo": "steel-browser",
-                "stars": 7722,
+                "stars": 7726,
                 "topics": [
                   "ai",
                   "ai-agents",
@@ -2571,10 +2934,10 @@
                 "language": "Java",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-26T05:11:44Z",
-                "open_issues": 626,
+                "open_issues": 627,
                 "owner": "termux",
                 "repo": "termux-app",
-                "stars": 61779,
+                "stars": 61831,
                 "topics": [
                   "android",
                   "hacktoberfest",
@@ -2601,7 +2964,7 @@
                 "open_issues": 59,
                 "owner": "sunmh207",
                 "repo": "AI-Codereview-Gitlab",
-                "stars": 1857,
+                "stars": 1858,
                 "topics": [
                   "ai",
                   "codereview",
@@ -2629,7 +2992,7 @@
                 "open_issues": 161,
                 "owner": "tirth8205",
                 "repo": "code-review-graph",
-                "stars": 31889,
+                "stars": 31894,
                 "topics": [
                   "ai-coding",
                   "claude",
@@ -2659,8 +3022,8 @@
                 "id": 1195336965,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T13:28:41Z",
-                "open_issues": 3,
+                "last_commit": "2026-10-02T12:47:22Z",
+                "open_issues": 4,
                 "owner": "0-AI-UG",
                 "repo": "cate",
                 "stars": 2169,
@@ -2680,11 +3043,11 @@
                 "id": 1012087571,
                 "language": "Go",
                 "license": "MIT",
-                "last_commit": "2026-10-01T08:37:49Z",
-                "open_issues": 654,
+                "last_commit": "2026-10-02T18:32:23Z",
+                "open_issues": 658,
                 "owner": "router-for-me",
                 "repo": "CLIProxyAPI",
-                "stars": 53703,
+                "stars": 53867,
                 "topics": [
                   "antigravity",
                   "claude-code",
@@ -2710,11 +3073,11 @@
                 "id": 988222683,
                 "language": "Vue",
                 "license": "MIT",
-                "last_commit": "2026-09-30T10:34:49Z",
+                "last_commit": "2026-10-02T16:44:38Z",
                 "open_issues": 1,
                 "owner": "Simon-He95",
                 "repo": "markstream-vue",
-                "stars": 3023,
+                "stars": 3024,
                 "topics": [
                   "ai",
                   "ai-chat",
@@ -2742,7 +3105,7 @@
             {
               "node_type": "item",
               "title": "Codex Security",
-              "description": "Open-source CLI and TypeScript SDK from OpenAI for finding, validating, and fixing security vulnerabilities in code. Supports repository scanning, finding tracking, fix verification, CI/CD integration, and containerized bulk scans. Intro Github Free",
+              "description": "Open-source CLI and TypeScript SDK from OpenAI for finding, validating, and fixing security vulnerabilities in code. Supports repository scanning, finding tracking, fix verification, CI/CD integration, and containerized bulk scans. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2751,11 +3114,11 @@
                 "id": 1299769220,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T19:00:51Z",
-                "open_issues": 299,
+                "last_commit": "2026-10-02T18:36:30Z",
+                "open_issues": 298,
                 "owner": "openai",
                 "repo": "codex-security",
-                "stars": 10950,
+                "stars": 10955,
                 "topics": [
                   "ai-security",
                   "application-security",
@@ -2792,7 +3155,7 @@
                 "open_issues": 0,
                 "owner": "cortex-docs",
                 "repo": "cortex",
-                "stars": 3211,
+                "stars": 3214,
                 "topics": [
                   "api-client",
                   "api-documentation",
@@ -2836,11 +3199,11 @@
                 "id": 805155266,
                 "language": "TypeScript",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-10-01T17:51:35Z",
-                "open_issues": 1713,
+                "last_commit": "2026-10-02T17:51:24Z",
+                "open_issues": 1698,
                 "owner": "CherryHQ",
                 "repo": "cherry-studio",
-                "stars": 52306,
+                "stars": 52324,
                 "topics": [
                   "agent-skills",
                   "ai-agent",
@@ -2858,7 +3221,7 @@
             {
               "node_type": "item",
               "title": "HuggingChat",
-              "description": "Open source codebase powering the HuggingChat app. The public service was paused in Jul 2025 and relaunched in 2026. URL Github Free",
+              "description": "Open source codebase powering the HuggingChat app. The public service was paused in Jul 2025 and returned in Oct 2025 as HuggingChat Omni (automatic routing across 115+ open models). URL Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2867,11 +3230,11 @@
                 "id": 603085008,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T16:34:31Z",
-                "open_issues": 301,
+                "last_commit": "2026-10-02T10:26:31Z",
+                "open_issues": 300,
                 "owner": "huggingface",
                 "repo": "chat-ui",
-                "stars": 10971,
+                "stars": 10973,
                 "topics": [
                   "chatgpt",
                   "hacktoberfest",
@@ -2898,11 +3261,11 @@
                 "id": 658928958,
                 "language": "Go",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:00:18Z",
-                "open_issues": 4135,
+                "last_commit": "2026-10-02T18:35:40Z",
+                "open_issues": 4152,
                 "owner": "ollama",
                 "repo": "ollama",
-                "stars": 182015,
+                "stars": 182056,
                 "topics": [
                   "deepseek",
                   "gemma",
@@ -2935,11 +3298,11 @@
                 "id": 552661142,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:05:26Z",
-                "open_issues": 598,
+                "last_commit": "2026-10-02T15:46:48Z",
+                "open_issues": 606,
                 "owner": "langchain-ai",
                 "repo": "langchain",
-                "stars": 147361,
+                "stars": 147380,
                 "topics": [
                   "agents",
                   "ai",
@@ -2968,7 +3331,7 @@
             {
               "node_type": "item",
               "title": "Dify",
-              "description": "Open-source LLM app development platform. Visually build AI apps, agents, and workflows with prompt engineering, RAG, model orchestration, and observability. Self-hostable or use the managed cloud. Intro URL Github Free/Paid",
+              "description": "Open-source LLM app development platform. Visually build AI apps, agents, and workflows with prompt engineering, RAG, model orchestration, and observability. Self-hostable or use the managed cloud. URL Github Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2977,11 +3340,11 @@
                 "id": 626805178,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T15:33:04Z",
-                "open_issues": 923,
+                "last_commit": "2026-10-02T18:21:56Z",
+                "open_issues": 974,
                 "owner": "langgenius",
                 "repo": "dify",
-                "stars": 157677,
+                "stars": 157725,
                 "topics": [
                   "agent",
                   "agentic-ai",
@@ -3022,7 +3385,7 @@
                 "open_issues": 164,
                 "owner": "Helicone",
                 "repo": "helicone",
-                "stars": 6192,
+                "stars": 6194,
                 "topics": [
                   "agent-monitoring",
                   "analytics",
@@ -3059,7 +3422,7 @@
                 "id": 996124831,
                 "language": "Jupyter Notebook",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T12:41:59Z",
+                "last_commit": "2026-10-02T12:06:29Z",
                 "open_issues": 13,
                 "owner": "onestardao",
                 "repo": "WFGY",
@@ -3097,7 +3460,7 @@
                 "open_issues": 148,
                 "owner": "abi",
                 "repo": "screenshot-to-code",
-                "stars": 79905,
+                "stars": 79926,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3105,7 +3468,7 @@
             {
               "node_type": "item",
               "title": "OpenRouter",
-              "description": "A unified API gateway for 400+ AI models (OpenAI, Anthropic, Google, DeepSeek, etc. across 60+ providers) behind a single OpenAI-compatible API key. Pass-through model pricing with a 5.5% credit-purchase fee; smart routing with automatic failover, free models, and BYOK (bring-your-own-key). Processes 10+ trillion tokens/day; Stripe agreed to acquire it (Aug 2026). Intro URL Free/Paid",
+              "description": "A unified API gateway for 500+ AI models (OpenAI, Anthropic, Google, DeepSeek, etc. across 80+ providers) behind a single OpenAI-compatible API key. Pass-through model pricing with a 5.5% credit-purchase fee; smart routing with automatic failover, free models, and BYOK (bring-your-own-key). Processes 10+ trillion tokens/day; Stripe agreed to acquire it (Aug 2026). More Info URL Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3114,11 +3477,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -3155,11 +3518,11 @@
                 "id": 1155005282,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T13:32:18Z",
+                "last_commit": "2026-10-02T13:37:34Z",
                 "open_issues": 0,
                 "owner": "NadirRouter",
                 "repo": "NadirClaw",
-                "stars": 656,
+                "stars": 655,
                 "topics": [
                   "ai",
                   "ai-cost-reduction",
@@ -3201,7 +3564,7 @@
                 "open_issues": 50,
                 "owner": "av",
                 "repo": "harbor",
-                "stars": 3236,
+                "stars": 3237,
                 "topics": [
                   "ai",
                   "automation",
@@ -3268,8 +3631,8 @@
                 "id": 1219087723,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T14:45:35Z",
-                "open_issues": 1005,
+                "last_commit": "2026-10-02T15:40:14Z",
+                "open_issues": 1015,
                 "owner": "future-agi",
                 "repo": "future-agi",
                 "stars": 2106,
@@ -3310,11 +3673,11 @@
                 "id": 1157102282,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T18:04:53Z",
-                "open_issues": 554,
+                "last_commit": "2026-10-02T18:26:57Z",
+                "open_issues": 531,
                 "owner": "diegosouzapw",
                 "repo": "OmniRoute",
-                "stars": 72021,
+                "stars": 72314,
                 "topics": [
                   "a2a",
                   "ai-agents",
@@ -3359,11 +3722,11 @@
                 "id": 1054793726,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T15:10:51Z",
-                "open_issues": 100,
+                "last_commit": "2026-10-02T11:06:10Z",
+                "open_issues": 102,
                 "owner": "ChromeDevTools",
                 "repo": "chrome-devtools-mcp",
-                "stars": 52854,
+                "stars": 52886,
                 "topics": [
                   "browser",
                   "chrome",
@@ -3380,7 +3743,7 @@
             {
               "node_type": "item",
               "title": "Lightpanda",
-              "description": "A lightweight, high-performance headless browser written in Zig, designed for AI agents. Optimized for speed and low memory (~9x faster than Chrome), featuring native MCP support and Markdown output for LLMs. Intro Github Free",
+              "description": "A lightweight, high-performance headless browser written in Zig, designed for AI agents. Optimized for speed and low memory (~9x faster than Chrome), featuring native MCP support and Markdown output for LLMs. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3389,11 +3752,11 @@
                 "id": 598667202,
                 "language": "Zig",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-10-01T14:30:41Z",
-                "open_issues": 80,
+                "last_commit": "2026-10-02T14:01:08Z",
+                "open_issues": 100,
                 "owner": "lightpanda-io",
                 "repo": "browser",
-                "stars": 35677,
+                "stars": 35766,
                 "topics": [
                   "browser",
                   "browser-automation",
@@ -3423,7 +3786,7 @@
                 "open_issues": 83,
                 "owner": "epiral",
                 "repo": "bb-browser",
-                "stars": 6239,
+                "stars": 6234,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3444,7 +3807,7 @@
                 "open_issues": 131,
                 "owner": "googleworkspace",
                 "repo": "cli",
-                "stars": 31230,
+                "stars": 31235,
                 "topics": [
                   "agent-skills",
                   "ai-agent",
@@ -3482,7 +3845,7 @@
                 "open_issues": 695,
                 "owner": "larksuite",
                 "repo": "cli",
-                "stars": 17521,
+                "stars": 17522,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3499,11 +3862,11 @@
                 "id": 1187709537,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T11:31:37Z",
-                "open_issues": 190,
+                "last_commit": "2026-10-02T13:53:09Z",
+                "open_issues": 191,
                 "owner": "DingTalk-Real-AI",
                 "repo": "dingtalk-workspace-cli",
-                "stars": 3193,
+                "stars": 3197,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3524,7 +3887,7 @@
                 "open_issues": 62,
                 "owner": "WecomTeam",
                 "repo": "wecom-cli",
-                "stars": 3152,
+                "stars": 3153,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3532,7 +3895,7 @@
             {
               "node_type": "item",
               "title": "OpenConnector",
-              "description": "Open-source connector gateway for AI agents. Connect user app accounts once, then expose a shared catalog of 1000+ SaaS providers to agents via SDK, CLI, MCP, HTTP, and OpenAPI. Github Free",
+              "description": "Open-source connector gateway for AI agents. Connect user app accounts once, then expose a shared catalog of 1500+ SaaS providers to agents via SDK, CLI, MCP, HTTP, and OpenAPI. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3541,11 +3904,11 @@
                 "id": 1283907968,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T03:27:55Z",
-                "open_issues": 11,
+                "last_commit": "2026-10-02T12:55:55Z",
+                "open_issues": 5,
                 "owner": "oomol-lab",
                 "repo": "open-connector",
-                "stars": 5937,
+                "stars": 5941,
                 "topics": [
                   "agent-tools",
                   "ai-agents",
@@ -3589,10 +3952,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-29T06:15:10Z",
-                "open_issues": 102,
+                "open_issues": 109,
                 "owner": "TauricResearch",
                 "repo": "TradingAgents",
-                "stars": 109455,
+                "stars": 109506,
                 "topics": [
                   "agent",
                   "finance",
@@ -3619,7 +3982,7 @@
                 "open_issues": 25,
                 "owner": "vnpy",
                 "repo": "vnpy",
-                "stars": 45673,
+                "stars": 45668,
                 "topics": [
                   "algotrading",
                   "finance",
@@ -3649,7 +4012,7 @@
                 "open_issues": 264,
                 "owner": "google-research",
                 "repo": "timesfm",
-                "stars": 34043,
+                "stars": 34052,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3657,7 +4020,7 @@
             {
               "node_type": "item",
               "title": "Dexter",
-              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Intro Github Free",
+              "description": "Autonomous financial research agent designed to perform deep analysis by thinking, planning, and learning through iteration. Specialized for the financial domain. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3667,10 +4030,10 @@
                 "language": "TypeScript",
                 "license": null,
                 "last_commit": "2026-09-23T19:56:36Z",
-                "open_issues": 104,
+                "open_issues": 105,
                 "owner": "virattt",
                 "repo": "dexter",
-                "stars": 27648,
+                "stars": 27630,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3688,10 +4051,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-30T20:35:57Z",
-                "open_issues": 108,
+                "open_issues": 109,
                 "owner": "ranaroussi",
                 "repo": "yfinance",
-                "stars": 25410,
+                "stars": 25413,
                 "topics": [
                   "financial-data",
                   "fix-yahoo-finance",
@@ -3717,11 +4080,11 @@
                 "id": 323048702,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-01T16:10:18Z",
+                "last_commit": "2026-10-02T04:55:27Z",
                 "open_issues": 85,
                 "owner": "openbq-org",
                 "repo": "OpenBB",
-                "stars": 73725,
+                "stars": 73753,
                 "topics": [
                   "ai",
                   "crypto",
@@ -3743,7 +4106,7 @@
             {
               "node_type": "item",
               "title": "Fincept Terminal",
-              "description": "Native C++20 financial terminal (Qt6 + embedded Python) with 100+ data connectors, 37 AI agents for trading/investing/economic/geopolitics analysis, multi-asset analytics, real-time trading across 16 brokers, and MCP workflow integration. Note: public version moved to monthly updates in June 2026 as team focuses on private edition. Github Free/Commercial",
+              "description": "Native C++20 financial terminal (Qt6 + embedded Python), AGPL-3.0 and free for personal/study/academic use, with the commercial Enterprise edition at $15/$30/$45 per user per month with 100+ data connectors, 37 AI agents for trading/investing/economic/geopolitics analysis, multi-asset analytics, real-time trading across 16 brokers, and MCP workflow integration. Note: public version moved to monthly updates in June 2026 as team focuses on private edition. Github Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3756,7 +4119,7 @@
                 "open_issues": 4,
                 "owner": "Fincept-Corporation",
                 "repo": "FinceptTerminal",
-                "stars": 32135,
+                "stars": 32129,
                 "topics": [
                   "ai-agents",
                   "algorithmic-trading",
@@ -3810,7 +4173,7 @@
             {
               "node_type": "item",
               "title": "Stable diffusion webui",
-              "description": "Open source project, input text or pictures to create pictures, Stable diffusion webui is the GUI of Stable Diffusion, and it is an image user interface that visualizes Stable Diffusion. It also integrates many other useful extension scripts; current model backbone is Stable Diffusion 3.5. GitHub Free",
+              "description": "Open source project, input text or pictures to create pictures, Stable diffusion webui is the GUI of Stable Diffusion, and it is an image user interface that visualizes Stable Diffusion. It also integrates many other useful extension scripts; it supports SD1.x/2.x, SDXL and SD3.x but not Flux; the project has seen little maintenance since v1.10.1 (2024), so new users may prefer Forge (Neo) or ComfyUI. GitHub Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3820,10 +4183,10 @@
                 "language": "Python",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-03-02T07:00:53Z",
-                "open_issues": 2512,
+                "open_issues": 2511,
                 "owner": "AUTOMATIC1111",
                 "repo": "stable-diffusion-webui",
-                "stars": 165172,
+                "stars": 165179,
                 "topics": [
                   "ai",
                   "ai-art",
@@ -3854,8 +4217,90 @@
           "children": [
             {
               "node_type": "item",
-              "title": "MiniMax H3",
-              "description": "🌱 Open-source omni-modal generative system by MiniMax for video and audio generation. Supports text-to-video, image-to-video, first/last-frame-to-video, text-to-audio-video, and local deployment via SGLang, vLLM, diffusers, and ComfyUI. Intro GitHub , HuggingFace Free",
+              "title": "Seedance",
+              "description": "🌟 ByteDance's video generation model family. Current generation Seedance 2.5 powers Dreamina, supporting up to 30-second single-pass generation with native 480p/720p/1080p output (720p by default; 1080p is 10-bit, 4K comes from Seedance 2.0), up to 50 multimodal references, text-to-video, image-to-video, start-end frame conditioning, and region-level editing. A Draft mode added Sep 23, 2026 renders a 480P preview first, then the final 1080P clip (about 57% cheaper per official claims). Available to developers via Volcengine. More Info / Skills URL Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "🌱 Open-source omni-modal generative system by MiniMax for video and audio generation. Supports text-to-video, image-to-video, first/last-frame-to-video, text-to-audio-video, and local deployment via SGLang, vLLM, diffusers, and ComfyUI. More Info",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            },
+            {
+              "node_type": "item",
+              "title": "MiniMax-AI/MiniMax-H3",
+              "description": ", HuggingFace",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3868,7 +4313,7 @@
                 "open_issues": 39,
                 "owner": "MiniMax-AI",
                 "repo": "MiniMax-H3",
-                "stars": 9444,
+                "stars": 9477,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -3876,7 +4321,7 @@
             {
               "node_type": "item",
               "title": "Higgsfield",
-              "description": "Multi-model AI video studio: one subscription fronts 15+ third-party frontier models (Seedance, Kling, Veo, Sora, Nano Banana Pro, etc.) behind a unified credit wallet. Differentiated by 70+ deterministic cinematic camera-move presets, Soul ID cross-shot character consistency (trainable from 5+ photos), and an own Soul image model; aimed at marketers and social-content teams. Founded by former Snap generative-AI head Alex Mashrabov. Intro URL Free/Paid",
+              "description": "Multi-model AI video studio: one subscription fronts 15+ third-party frontier models (Seedance, Kling, Veo, Sora, Nano Banana Pro, etc.) behind a unified credit wallet. Differentiated by 70+ deterministic cinematic camera-move presets, Soul ID cross-shot character consistency (trainable from 5+ photos), and an own Soul image model; aimed at marketers and social-content teams. Founded by former Snap generative-AI head Alex Mashrabov. More Info URL Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3885,11 +4330,11 @@
                 "id": 622424201,
                 "language": "Python",
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-01T15:22:06Z",
-                "open_issues": 57,
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
                 "owner": "ikaijua",
                 "repo": "Awesome-AITools",
-                "stars": 6203,
+                "stars": 6204,
                 "topics": [
                   "agent-skills",
                   "agents",
@@ -3917,7 +4362,7 @@
             {
               "node_type": "item",
               "title": "Palmier Pro",
-              "description": "Open-source macOS video editor built for AI. Combines professional timeline editing with AI-assisted workflows, generative image/video features using models like Seedance, Kling, and Nano Banana Pro, plus MCP integration so agents such as Claude Code, Codex, Cursor, or the in-app agent can control the editing timeline. Apple Silicon Mac only. Github Free/Paid",
+              "description": "macOS video editor built for AI (note: closed-source and proprietary since v0.7.6; the repo keeps only the historic GPLv3 sources). Combines professional timeline editing with AI-assisted workflows, generative image/video features using models like Seedance, Kling, and Nano Banana Pro, plus MCP integration so agents such as Claude Code, Codex, Cursor, or the in-app agent can control the editing timeline. Apple Silicon Mac only. Github Free/Paid",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -3930,7 +4375,7 @@
                 "open_issues": 96,
                 "owner": "palmier-io",
                 "repo": "palmier-pro",
-                "stars": 14500,
+                "stars": 14503,
                 "topics": [
                   "ai-video",
                   "claude",
@@ -3956,10 +4401,10 @@
                 "language": "Python",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-09-06T05:02:34Z",
-                "open_issues": 340,
+                "open_issues": 341,
                 "owner": "calesthio",
                 "repo": "OpenMontage",
-                "stars": 62115,
+                "stars": 62393,
                 "topics": [
                   "agent",
                   "agentic-ai",
@@ -3993,6 +4438,54 @@
           "children": [
             {
               "node_type": "item",
+              "title": "🌟 Hugging Face",
+              "description": "The leading open AI platform and community. Hosts 2.9M+ models, 1M+ datasets, and 1.4M+ demo Spaces (State of Open Models: Summer 2026); powers model discovery, inference, fine-tuning, and deployment via the Hub, Transformers, Diffusers, and Accelerate ecosystems. More Info URL Github Free/Paid",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+                "homepage": null,
+                "id": 622424201,
+                "language": "Python",
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-02T14:43:48Z",
+                "open_issues": 59,
+                "owner": "ikaijua",
+                "repo": "Awesome-AITools",
+                "stars": 6204,
+                "topics": [
+                  "agent-skills",
+                  "agents",
+                  "ai",
+                  "artificial-intelligence",
+                  "awesome",
+                  "awesome-list",
+                  "awesome-lists",
+                  "chatgpt",
+                  "claude",
+                  "claude-skills",
+                  "claudecode",
+                  "deepseek",
+                  "gemini",
+                  "gpt",
+                  "gpt-image-2",
+                  "llm",
+                  "nanobanana",
+                  "seedance",
+                  "tools"
+                ]
+              },
+              "first_seen": "2026-09-07T18:25:20.758Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Infrastructure Platform"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "LeetCUDA",
               "description": "An open-source educational repository and question bank for CUDA programming and deep learning operator optimization. Includes 200+ kernels ranging from basic to advanced (e.g., FlashAttention-2) with PyTorch bindings. Github Free",
               "children": [],
@@ -4007,7 +4500,7 @@
                 "open_issues": 3,
                 "owner": "xlite-dev",
                 "repo": "LeetCUDA",
-                "stars": 12026,
+                "stars": 12030,
                 "topics": [
                   "cuda",
                   "cuda-12",
@@ -4048,7 +4541,7 @@
                 "open_issues": 163,
                 "owner": "x1xhlol",
                 "repo": "system-prompts-and-models-of-ai-tools",
-                "stars": 144002,
+                "stars": 143994,
                 "topics": [
                   "ai",
                   "bolt",
@@ -4084,7 +4577,7 @@
             {
               "node_type": "item",
               "title": "lm-sys/FastChat",
-              "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. Github Free",
+              "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena (renamed LMArena in Sep 2024 and Arena in Jan 2026). Note: no releases since v0.2.36 (Feb 2024). Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4094,10 +4587,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-05-01T00:25:53Z",
-                "open_issues": 1044,
+                "open_issues": 1045,
                 "owner": "lm-sys",
                 "repo": "FastChat",
-                "stars": 39554,
+                "stars": 39555,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4125,7 +4618,7 @@
                 "open_issues": 156,
                 "owner": "lyogavin",
                 "repo": "airllm",
-                "stars": 35280,
+                "stars": 35284,
                 "topics": [
                   "chinese-llm",
                   "chinese-nlp",
@@ -4167,7 +4660,7 @@
                 "open_issues": 385,
                 "owner": "immersive-translate",
                 "repo": "immersive-translate",
-                "stars": 19143,
+                "stars": 19156,
                 "topics": [
                   "chrome-extension",
                   "safari-extension",
@@ -4218,11 +4711,11 @@
                 "id": 251396732,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T22:59:16Z",
+                "last_commit": "2026-10-02T16:18:12Z",
                 "open_issues": 30,
                 "owner": "niedev",
                 "repo": "RTranslator",
-                "stars": 10472,
+                "stars": 10475,
                 "topics": [
                   "android",
                   "android-app",
@@ -4265,7 +4758,7 @@
                 "open_issues": 158,
                 "owner": "openai",
                 "repo": "whisper",
-                "stars": 109844,
+                "stars": 109876,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4282,11 +4775,11 @@
                 "id": 541269386,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-09-28T18:35:46Z",
-                "open_issues": 350,
+                "last_commit": "2026-10-02T13:21:13Z",
+                "open_issues": 348,
                 "owner": "ggml-org",
                 "repo": "whisper.cpp",
-                "stars": 54078,
+                "stars": 54100,
                 "topics": [
                   "inference",
                   "openai",
@@ -4310,11 +4803,11 @@
                 "id": 540842713,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-23T12:49:26Z",
-                "open_issues": 23,
+                "last_commit": "2026-10-02T08:35:54Z",
+                "open_issues": 20,
                 "owner": "chidiwilliams",
                 "repo": "buzz",
-                "stars": 21788,
+                "stars": 21799,
                 "topics": [
                   "whisper"
                 ]
@@ -4337,7 +4830,7 @@
                 "open_issues": 172,
                 "owner": "Const-me",
                 "repo": "Whisper",
-                "stars": 10672,
+                "stars": 10673,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4355,10 +4848,10 @@
                 "language": "Python",
                 "license": "BSD-2-Clause",
                 "last_commit": "2026-09-26T20:53:59Z",
-                "open_issues": 229,
+                "open_issues": 230,
                 "owner": "m-bain",
                 "repo": "whisperX",
-                "stars": 24328,
+                "stars": 24333,
                 "topics": [
                   "asr",
                   "speech",
@@ -4392,7 +4885,7 @@
                 "open_issues": 409,
                 "owner": "index-tts",
                 "repo": "index-tts",
-                "stars": 24258,
+                "stars": 24261,
                 "topics": [
                   "bigvgan",
                   "cross-lingual",
@@ -4421,7 +4914,7 @@
                 "open_issues": 64,
                 "owner": "2noise",
                 "repo": "ChatTTS",
-                "stars": 39889,
+                "stars": 39887,
                 "topics": [
                   "agent",
                   "chat",
@@ -4464,10 +4957,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-08-04T07:47:32Z",
-                "open_issues": 583,
+                "open_issues": 582,
                 "owner": "RVC-Project",
                 "repo": "Retrieval-based-Voice-Conversion-WebUI",
-                "stars": 38552,
+                "stars": 38563,
                 "topics": [
                   "audio-analysis",
                   "change",
@@ -4492,7 +4985,7 @@
             {
               "node_type": "item",
               "title": "VibeVoice",
-              "description": "Open-source voice AI framework from Microsoft that includes both ASR and TTS capabilities. ASR supports 60-minute long-form audio with speaker diarization and 50+ languages; TTS generates natural long-form multi-speaker or real-time streaming speech. Intro GitHub Free",
+              "description": "Open-source voice AI framework from Microsoft. Microsoft removed the TTS code on Sep 5, 2025 over misuse concerns (online generation for TTS-1.5B is disabled), so the mainline is now ASR. ASR supports 60-minute long-form audio with speaker diarization and 50+ languages; TTS generates natural long-form multi-speaker or real-time streaming speech. GitHub Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4505,7 +4998,7 @@
                 "open_issues": 199,
                 "owner": "microsoft",
                 "repo": "VibeVoice",
-                "stars": 54592,
+                "stars": 54602,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4523,10 +5016,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-08-09T00:03:42Z",
-                "open_issues": 709,
+                "open_issues": 711,
                 "owner": "jamiepine",
                 "repo": "voicebox",
-                "stars": 56108,
+                "stars": 56144,
                 "topics": [
                   "ai",
                   "cuda",
@@ -4542,6 +5035,48 @@
             },
             {
               "node_type": "item",
+              "title": "VoiceStudio",
+              "description": "Open-source, local-first AI voice workbench (formerly OmniVoice Studio; an alternative to ElevenLabs). Aggregates 16 TTS and 11 ASR engines across 646 languages, covering zero-shot voice cloning (3–15s samples), voice design, video dubbing, dictation/transcription, and audiobook production (EPUB/PDF → M4B). Its local service on :3900 mirrors the OpenAI audio API, and a built-in MCP server exposes tools to Claude Desktop and Cursor. No account or API key required; models and audio stay on your machine. Supports CUDA, Apple Silicon MPS, MLX, ROCm, and CPU.Note: licensed AGPL-3.0; default engine weights are CC-BY-NC (non-commercial), output is watermarked with AudioSeal by default, and the project self-describes as beta. Github Free",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+                "homepage": "https://voicestudio.sh",
+                "id": 1206390571,
+                "language": "Python",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-10-02T18:05:38Z",
+                "open_issues": 76,
+                "owner": "debpalash",
+                "repo": "VoiceStudio",
+                "stars": 51781,
+                "topics": [
+                  "ai",
+                  "audiobook",
+                  "cuda",
+                  "dubbing",
+                  "elevenlabs-alternative",
+                  "huggingface",
+                  "local-first",
+                  "mlx",
+                  "omnivoice-studio",
+                  "speech-to-text",
+                  "tauri",
+                  "text-to-speech",
+                  "transcription",
+                  "translate",
+                  "tts",
+                  "voice-ai",
+                  "voice-cloning",
+                  "voice-generation",
+                  "voicestudio",
+                  "workflow"
+                ]
+              },
+              "first_seen": "2026-10-02T18:43:25.838Z"
+            },
+            {
+              "node_type": "item",
               "title": "speech-to-speech",
               "description": "Low-latency, fully modular voice-agent pipeline (VAD → STT → LLM → TTS) from Hugging Face. Exposes an OpenAI Realtime-compatible WebSocket API; every component is swappable, supporting fully local or API-backed deployment. Used in production as the conversation backend for Reachy Mini robots. GitHub Free",
               "children": [],
@@ -4552,11 +5087,11 @@
                 "id": 839428333,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T21:30:53Z",
-                "open_issues": 115,
+                "last_commit": "2026-10-02T13:59:43Z",
+                "open_issues": 113,
                 "owner": "huggingface",
                 "repo": "speech-to-speech",
-                "stars": 13357,
+                "stars": 13364,
                 "topics": [
                   "ai",
                   "assistant",
@@ -4581,7 +5116,7 @@
             {
               "node_type": "item",
               "title": "audiocraft",
-              "description": "Open source library for audio/music generation by Meta, which mainly includes two models, MusicGen: text-to-music model, AudioGen: text-generated sound model. MusicGen Online Demo GitHub Free",
+              "description": "Open source library for audio/music generation by Meta, which mainly includes two models, MusicGen: text-to-music model, AudioGen: text-generated sound model. Unmaintained since Mar 14, 2025 (last release 1.4.0a2; 1.3.0 on PyPI); code is MIT but model weights are CC-BY-NC 4.0 (non-commercial only). MusicGen Online Demo GitHub Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4594,7 +5129,7 @@
                 "open_issues": 400,
                 "owner": "facebookresearch",
                 "repo": "audiocraft",
-                "stars": 23661,
+                "stars": 23659,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4609,7 +5144,7 @@
             {
               "node_type": "item",
               "title": "Seamless",
-              "description": "Seamless is a family of AI models that enable more natural and authentic communication across languages.Online Demo Github Free",
+              "description": "Seamless is a family of AI models that enable more natural and authentic communication across languages. Official development stopped around Nov 2024; the pinned fairseq2 0.2.x dependency cannot be installed on Python 3.12+.Online Demo Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4622,7 +5157,7 @@
                 "open_issues": 254,
                 "owner": "facebookresearch",
                 "repo": "seamless_communication",
-                "stars": 11883,
+                "stars": 11885,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4647,10 +5182,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-25T01:25:54Z",
-                "open_issues": 200,
+                "open_issues": 203,
                 "owner": "bradautomates",
                 "repo": "claude-video",
-                "stars": 17898,
+                "stars": 17944,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4674,11 +5209,11 @@
                 "id": 129571436,
                 "language": "Lean",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T18:55:40Z",
+                "last_commit": "2026-10-02T13:57:23Z",
                 "open_issues": 1694,
                 "owner": "leanprover",
                 "repo": "lean4",
-                "stars": 9370,
+                "stars": 9378,
                 "topics": [
                   "lean",
                   "lean4"
@@ -4706,10 +5241,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-11-20T14:58:13Z",
-                "open_issues": 362,
+                "open_issues": 361,
                 "owner": "hiroi-sora",
                 "repo": "Umi-OCR",
-                "stars": 47569,
+                "stars": 47564,
                 "topics": [
                   "ocr",
                   "ocr-python",
@@ -4794,8 +5329,8 @@
           "children": [
             {
               "node_type": "item",
-              "title": "Genesis",
-              "description": "High-performance simulation platform for general-purpose robotics and embodied AI. Integrates a unified multi-physics engine, photo-realistic renderer, and cross-platform compiler for training AI agents in complex physical worlds. Intro Github Free",
+              "title": "Genesis World",
+              "description": "Now renamed Genesis World (v1.0 released May 2026, maintained by Genesis AI). High-performance simulation platform for general-purpose robotics and embodied AI: a unified multi-physics engine, the Nyx photo-realistic renderer and the Quadrants compiler for training AI agents in complex physical worlds. Github Free",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -4804,11 +5339,11 @@
                 "id": 712225112,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T13:13:11Z",
+                "last_commit": "2026-10-01T22:26:43Z",
                 "open_issues": 141,
                 "owner": "Genesis-Embodied-AI",
                 "repo": "genesis-world",
-                "stars": 30014,
+                "stars": 30012,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:13:32.546Z"
@@ -4823,7 +5358,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-01T19:03:44.913Z",
+    "last_updated": "2026-10-02T18:43:25.838Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
@@ -4831,11 +5366,11 @@
       "id": 622424201,
       "language": "Python",
       "license": "CC-BY-4.0",
-      "last_commit": "2026-10-01T15:22:06Z",
-      "open_issues": 57,
+      "last_commit": "2026-10-02T14:43:48Z",
+      "open_issues": 59,
       "owner": "ikaijua",
       "repo": "Awesome-AITools",
-      "stars": 6203,
+      "stars": 6204,
       "topics": [
         "agent-skills",
         "agents",
@@ -4858,7 +5393,7 @@
         "tools"
       ]
     },
-    "original_repository_sha": "67807459b4f3c4ef6121a23d90a2051894878264",
+    "original_repository_sha": "2a5ed11f00efcd83c808a41778e317af271595eb",
     "enhanced_repository": "enhansome/enhansome-Awesome-AITools",
     "enhanced_repository_description": null,
     "title": "Awesome AITools with stars"
